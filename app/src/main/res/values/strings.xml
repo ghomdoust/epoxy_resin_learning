@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name"> آموزش اپوکسی رزین 1</string>
+    <string name="Season1">فصل اول : آشنایی با مقدمات کار اپوکسی رزین</string>
+    <string name="Season2">فصل دوم : ابزارآلات مورد نیاز</string>
+    <string name="Season3">فصل سوم : نحوه محاسبه میزان رزین</string>
+    <string name="Season4">فصل چهارم : انواع چوب درختان</string>
+    <string name="Season5">فصل پنجم : زیورآلات برنز و برنج</string>
+    <string name="Season6">فصل ششم : میزچوبی</string>
+    <string name="Season7">فصل هفتم : کف پوش رزین اپوکشی</string>
+    <string name="Season8">فصل هشتم : ابزارآلات مورد نیاز</string>
+    <string name="Season9">فصل نهم : ابزارآلات مورد نیاز</string>
+    <string name="Season10">فصل دهم : ابزارآلات مورد نیاز</string>
+</resources>

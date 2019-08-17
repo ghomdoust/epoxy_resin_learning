@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ef5350</color>
+    <color name="colorPrimaryDark">#ff867c</color>
+    <color name="colorAccent">#5F8FEC</color>
+    <color name="secondaryColor">#7c4dff</color>
+    <color name="secondaryLightColor">#b47cff</color>
+    <color name="secondaryDarkColor">#3f1dcb</color>
+    <color name="primaryTextColor">#b388ff</color>
+    <color name="secondaryTextColor">#00b0ff</color>
+    <color name="TextColor">#000000</color>
+    //Special
+    <color name="for_round">#2196f3</color>
+    <color name="back_ground">#0069c0</color>
+    <color name="Text_Color_ground">#6EC6FF</color>
+</resources>

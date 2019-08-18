@@ -1,7 +1,6 @@
 package ir.wccs.epoxy_resin_learning;
 
 import android.content.Intent;
-import android.media.MediaPlayer;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -12,19 +11,11 @@ import android.widget.ImageView;
 public class SplashActivity extends AppCompatActivity {
 
     private Handler handler;
-    private MediaPlayer Sound;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-
-
-        Sound=MediaPlayer.create(this,R.raw.intro);
-        Sound.start();
-
-
 
 
         handler = new Handler();

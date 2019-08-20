@@ -11,6 +11,7 @@
     <color name="TextColor">#000000</color>
     //Special
     <color name="for_round">#2196f3</color>
+    <color name="for_round_clicked">#E9390D</color>
     <color name="back_ground">#0069c0</color>
     <color name="Text_Color_ground">#6EC6FF</color>
 </resources>

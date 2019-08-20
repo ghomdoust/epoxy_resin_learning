@@ -18,36 +18,37 @@
         android:orientation="vertical">
 
         <ImageButton
-            android:id="@+id/imageButton1"
+            android:id="@+id/ibtn1"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_gravity="center"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="15dp"
             android:layout_weight="1"
-
             android:background="@color/for_round"
-            app:srcCompat="@drawable/ring" />
+            app:srcCompat="@drawable/ic_assignment_return_black_48dp" />
 
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/ibtn2"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_gravity="center"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="15dp"
             android:layout_weight="1"
             android:background="@color/for_round"
-            app:srcCompat="@drawable/frame" />
+            app:srcCompat="@drawable/ic_alarm_black_48dp" />
 
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/ibtn3"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_gravity="center"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="15dp"
             android:layout_weight="1"
             android:background="@color/for_round"
-
-            app:srcCompat="@drawable/shopping" />
+            app:srcCompat="@drawable/ic_check_circle_black_48dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -59,37 +60,38 @@
         android:orientation="vertical">
 
         <ImageButton
-            android:id="@+id/1-learning"
+            android:id="@+id/ibtn4"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_gravity="center"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="15dp"
             android:layout_weight="1"
             android:background="@color/for_round"
-
-            android:src="@drawable/learning" />
+            android:src="@drawable/ic_alarm_black_48dp" />
 
         <ImageButton
-            android:id="@+id/imageButton5"
+            android:id="@+id/ibtn5"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_gravity="center"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="15dp"
             android:layout_weight="1"
             android:background="@color/for_round"
-
-            tools:src="@drawable/tabe" />
+            android:src="@drawable/ic_build_black_48dp"
+            tools:src="@drawable/ic_alarm_black_48dp" />
 
         <ImageButton
-            android:id="@+id/imageButton6"
+            android:id="@+id/ibtn6"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_gravity="center"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="15dp"
             android:layout_weight="1"
             android:background="@color/for_round"
-
-            app:srcCompat="@drawable/abajor" />
+            app:srcCompat="@drawable/ic_alarm_black_48dp" />
     </LinearLayout>
 
 </LinearLayout>

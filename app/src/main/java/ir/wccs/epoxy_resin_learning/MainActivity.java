@@ -45,14 +45,53 @@ public class MainActivity extends AppCompatActivity {
 
         final Animation animation7= AnimationUtils.loadAnimation(this,R.anim.alpha);
 
-
         ibtn1.setOnClickListener(new ImageButton.OnClickListener() {
             @Override
             public void onClick(View v) {
                 v.startAnimation(animation7);
             }
 
-            });
+        });
+
+
+        ibtn2.setOnClickListener(new ImageButton.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                v.startAnimation(animation7);
+            }
+        });
+        ibtn3.setOnClickListener(new ImageButton.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                v.startAnimation(animation7);
+            }
+        });
+        ibtn4.setOnClickListener(new ImageButton.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                v.startAnimation(animation7);
+            }
+        });
+        ibtn5.setOnClickListener(new ImageButton.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                v.startAnimation(animation7);
+            }
+        });
+        ibtn5.setOnClickListener(new ImageButton.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                v.startAnimation(animation7);
+            }
+        });
+        ibtn6.setOnClickListener(new ImageButton.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                v.startAnimation(animation7);
+            }
+        });
+
+
 
     }
 }

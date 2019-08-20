@@ -36,7 +36,7 @@
             android:layout_marginBottom="15dp"
             android:layout_weight="1"
             android:background="@color/for_round"
-            app:srcCompat="@drawable/ic_build_black_48dp" />
+            app:srcCompat="@drawable/frame" />
 
         <ImageButton
             android:id="@+id/imageButton3"
@@ -47,7 +47,7 @@
             android:layout_weight="1"
             android:background="@color/for_round"
 
-            app:srcCompat="@drawable/ic_favorite_black_48dp" />
+            app:srcCompat="@drawable/shopping" />
     </LinearLayout>
 
     <LinearLayout
@@ -78,7 +78,7 @@
             android:layout_weight="1"
             android:background="@color/for_round"
 
-            />
+            tools:src="@drawable/tabe" />
 
         <ImageButton
             android:id="@+id/imageButton6"
@@ -89,7 +89,7 @@
             android:layout_weight="1"
             android:background="@color/for_round"
 
-            app:srcCompat="@drawable/ic_find_in_page_black_48dp" />
+            app:srcCompat="@drawable/abajor" />
     </LinearLayout>
 
 </LinearLayout>

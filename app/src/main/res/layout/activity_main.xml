@@ -26,7 +26,7 @@
             android:layout_marginBottom="15dp"
             android:layout_weight="1"
             android:background="@drawable/btn_selected"
-            app:srcCompat="@drawable/ic_assignment_return_black_48dp" />
+            app:srcCompat="@drawable/ring" />
 
         <ImageButton
             android:id="@+id/ibtn2"
@@ -37,7 +37,7 @@
             android:layout_marginBottom="15dp"
             android:layout_weight="1"
             android:background="@drawable/btn_selected"
-            app:srcCompat="@drawable/ic_alarm_black_48dp" />
+            app:srcCompat="@drawable/frame" />
 
         <ImageButton
             android:id="@+id/ibtn3"
@@ -48,7 +48,7 @@
             android:layout_marginBottom="15dp"
             android:layout_weight="1"
             android:background="@drawable/btn_selected"
-            app:srcCompat="@drawable/ic_check_circle_black_48dp" />
+            app:srcCompat="@drawable/shopping" />
     </LinearLayout>
 
     <LinearLayout
@@ -68,7 +68,7 @@
             android:layout_marginBottom="15dp"
             android:layout_weight="1"
             android:background="@drawable/btn_selected"
-            android:src="@drawable/ic_alarm_black_48dp" />
+            android:src="@drawable/learning" />
 
         <ImageButton
             android:id="@+id/ibtn5"
@@ -79,8 +79,7 @@
             android:layout_marginBottom="15dp"
             android:layout_weight="1"
             android:background="@drawable/btn_selected"
-            android:src="@drawable/ic_build_black_48dp"
-            tools:src="@drawable/ic_alarm_black_48dp" />
+            android:src="@drawable/tabe" />
 
         <ImageButton
             android:id="@+id/ibtn6"
@@ -91,7 +90,7 @@
             android:layout_marginBottom="15dp"
             android:layout_weight="1"
             android:background="@drawable/btn_selected"
-            app:srcCompat="@drawable/ic_alarm_black_48dp" />
+            app:srcCompat="@drawable/abajor" />
     </LinearLayout>
 
 </LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="#D3D7FA"
+    android:orientation="vertical"
+    tools:context=".SEASON1"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    android:backgroundTint="@color/Text_Color_ground">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="484dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/Season1"
+                style="@style/ButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/Season1"
+                android:textColor="@color/TextColor" />
+
+            <Button
+                android:id="@+id/Season2"
+                style="@style/ButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/Season2"
+                android:textColor="@color/TextColor" />
+
+            <Button
+                android:id="@+id/Season3"
+                style="@style/ButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/Season3"
+                android:textColor="@color/TextColor" />
+
+            <Button
+                android:id="@+id/Season4"
+                style="@style/ButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/Season4"
+                android:textColor="@color/TextColor"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="250dp" />
+
+            <Button
+                android:id="@+id/Season5"
+                style="@style/ButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/Season5"
+                android:textColor="@color/TextColor" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="108dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#00E97171"
+        app:srcCompat="@drawable/reply_black" />
+
+
+</LinearLayout>

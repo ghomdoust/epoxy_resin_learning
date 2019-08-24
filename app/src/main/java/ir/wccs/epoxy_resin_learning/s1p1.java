@@ -7,7 +7,7 @@ import android.widget.VideoView;
 
 
 
-public class S1P1 extends AppCompatActivity {
+public class s1p1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +19,7 @@ public class S1P1 extends AppCompatActivity {
         MediaController mediaController;
         videoView = (VideoView)findViewById(R.id.video_View);
         videoView.setVideoPath(VIDEO_PATH);
-        mediaController = new MediaController(S1P1.this);
+        mediaController = new MediaController(s1p1.this);
         mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);
         videoView.start();

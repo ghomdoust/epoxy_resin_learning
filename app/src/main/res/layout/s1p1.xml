@@ -7,7 +7,7 @@
     android:layout_gravity="center_vertical"
     android:background="#D3D7FA"
     android:orientation="vertical"
-    tools:context=".S1P1"
+    tools:context=".s1p1"
     android:theme="@style/Theme.AppCompat.NoActionBar"
     android:backgroundTint="@color/Text_Color_ground">
 

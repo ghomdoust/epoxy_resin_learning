@@ -40,7 +40,45 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        ibtn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,season2.class);
+                startActivity(intent);
+            }
+        });
 
+        ibtn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,season3.class);
+                startActivity(intent);
+            }
+        });
+
+        ibtn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,season4.class);
+                startActivity(intent);
+            }
+        });
+
+        ibtn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,season5.class);
+                startActivity(intent);
+            }
+        });
+
+        ibtn6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,season6.class);
+                startActivity(intent);
+            }
+        });
 
 
 

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name"> آموزش اپوکسی رزین 7</string>
+    <string name="app_name"> آموزش اپوکسی رزین</string>
     <string name="Season1">فصل اول : آشنایی با مقدمات کار اپوکسی رزین</string>
     <string name="Season2">فصل دوم : ابزارآلات مورد نیاز</string>
     <string name="Season3">فصل سوم : نحوه محاسبه میزان رزین</string>
@@ -10,4 +10,15 @@
     <string name="Season8">فصل هشتم : ابزارآلات مورد نیاز</string>
     <string name="Season9">فصل نهم : ابزارآلات مورد نیاز</string>
     <string name="Season10">فصل دهم : ابزارآلات مورد نیاز</string>
+    //سرفصل های فصل اول//
+    <string name="Season1_1">اول : چگونه حلقه طلایی اپوکسی رزین ایجاد کنیم</string>
+    <string name="Season1_2">دوم : آموزش ساخت گوشواره چوب و رزین</string>
+    <string name="Season1_3">سوم : فیلم اموزش ساختن حلقه رزین و چوب</string>
+    <string name="Season1_4">چهارم : آموزش درست کردن انگشتر و زیورآلات رزین اپوکسی</string>
+    <string name="Season1_5">پنجم : زیورآلات برنز و برنج</string>
+    <string name="Season1_6">ششم : میزچوبی</string>
+    <string name="Season1_7">هفتم : کف پوش رزین اپوکشی</string>
+    <string name="Season1_8">هشتم : ابزارآلات مورد نیاز</string>
+    <string name="Season1_9">نهم : ابزارآلات مورد نیاز</string>
+    <string name="Season1_10">دهم : ابزارآلات مورد نیاز</string>
 </resources>

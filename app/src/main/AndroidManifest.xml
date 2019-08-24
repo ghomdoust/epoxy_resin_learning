@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".S1P1"></activity>
+        <activity android:name=".s1p2"></activity>
+        <activity android:name=".season6" />
+        <activity android:name=".season5" />
+        <activity android:name=".season4" />
+        <activity android:name=".season3" />
+        <activity android:name=".season2" />
+        <activity android:name=".S1P1" />
         <activity android:name=".season1" />
         <activity
             android:name=".SplashActivity"
@@ -22,5 +28,7 @@
         </activity>
         <activity android:name=".MainActivity" />
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

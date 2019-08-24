@@ -1,13 +1,18 @@
 package ir.wccs.epoxy_resin_learning;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageButton;
-import android.widget.ImageView;
+import android.content.Intent;
 
+
+
+
+
+@SuppressWarnings("ALL")
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -24,6 +29,23 @@ public class MainActivity extends AppCompatActivity {
         final ImageButton ibtn4 = (ImageButton) findViewById(R.id.ibtn4);
         final ImageButton ibtn5 = (ImageButton) findViewById(R.id.ibtn5);
         final ImageButton ibtn6 = (ImageButton) findViewById(R.id.ibtn6);
+
+
+
+        ibtn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,season1.class);
+                startActivity(intent);
+            }
+        });
+
+
+
+
+
+
+
 
         final Animation animation1= AnimationUtils.loadAnimation(this,R.anim.main_move_right);
         ibtn1.setAnimation(animation1);
@@ -45,6 +67,8 @@ public class MainActivity extends AppCompatActivity {
 
         final Animation animation7= AnimationUtils.loadAnimation(this,R.anim.alpha);
 
+
+        /*
         ibtn1.setOnClickListener(new ImageButton.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -52,8 +76,6 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
-
-
         ibtn2.setOnClickListener(new ImageButton.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -90,6 +112,8 @@ public class MainActivity extends AppCompatActivity {
                 v.startAnimation(animation7);
             }
         });
+        */
+
 
 
 

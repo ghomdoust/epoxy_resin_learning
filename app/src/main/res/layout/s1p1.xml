@@ -13,17 +13,15 @@
 
 
     <VideoView
-        android:id="@+id/videoView"
+        android:id="@+id/video_View"
         android:layout_width="match_parent"
-        android:layout_height="315dp" />
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:layout_centerVertical="true"
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="108dp"
-        android:layout_height="88dp"
-        android:layout_gravity="center_horizontal"
-        android:backgroundTint="#00E97171"
-        app:srcCompat="@drawable/reply_black" />
+        />
+
+
 
 
 </LinearLayout>

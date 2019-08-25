@@ -28,24 +28,15 @@ public class season1 extends AppCompatActivity {
 
 
         final ImageButton back = (ImageButton) findViewById(R.id.ibtnback);
-        final Button s1p1 = (Button) findViewById(R.id.btns1p1);
+        final Button btns1p1 = (Button) findViewById(R.id.btns1p1);
 
 
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(season1.this,MainActivity.class);
-                startActivity(intent);
-                finish();
-            }
-        });
-
-
-        s1p1.setOnClickListener(new View.OnClickListener() {
+        btns1p1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(season1.this,s1p1.class);
                 startActivity(intent);
+                finish();
             }
         });
 

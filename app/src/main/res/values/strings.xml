@@ -11,16 +11,16 @@
     <string name="Season9">فصل نهم : ابزارآلات مورد نیاز</string>
     <string name="Season10">فصل دهم : ابزارآلات مورد نیاز</string>
     //سرفصل های فصل اول//
-    <string name="Season1_1">اول : چگونه حلقه طلایی اپوکسی رزین ایجاد کنیم</string>
-    <string name="Season1_2">دوم : آموزش ساخت گوشواره چوب و رزین</string>
-    <string name="Season1_3">سوم : فیلم اموزش ساختن حلقه رزین و چوب</string>
-    <string name="Season1_4">چهارم : آموزش درست کردن انگشتر و زیورآلات رزین اپوکسی</string>
-    <string name="Season1_5">پنجم : زیورآلات برنز و برنج</string>
-    <string name="Season1_6">ششم : میزچوبی</string>
-    <string name="Season1_7">هفتم : کف پوش رزین اپوکشی</string>
-    <string name="Season1_8">هشتم : ابزارآلات مورد نیاز</string>
-    <string name="Season1_9">نهم : ابزارآلات مورد نیاز</string>
-    <string name="Season1_10">دهم : ابزارآلات مورد نیاز</string>
+    <string name="Season1_1">آشنایی با مواد و ابزار مورد نیاز کار با رزین اپوکسی</string>
+    <string name="Season1_2">جلسه اول :آموزش مقدماتی</string>
+    <string name="Season1_3"> جلسه دوم : آموزش استفاده از ترانسفر درساخت زیورآلات رزینی</string>
+    <string name="Season1_4">جلسه چهارم : آموزش ساخت زیورآلات رزینی بطري آرزو </string>
+    <string name="Season1_5">جلسه پنجم : آموزش ساخت زیورآلات رزینی با گل هاي خشک</string>
+    <string name="Season1_6">جلسه ششم : آموزش ساخت قاب موبایل رزینی</string>
+    <string name="Season1_7">جلسه هفتم : آموزش ساخت انگشتر رزینی با چوب</string>
+    <string name="Season1_8">جلسه هشتم : آموزش نقاشي سه بعدي با رزين</string>
+    <string name="Season1_9">جلسه نهم : شناخت رنگهای قابل استفاده در رزین</string>
+    <string name="Season1_10">جلسه دهم : 8 ویژگی مهم اتاق کار با اپوکسی</string>
     //سرفصل های فصل دوم//
     <string name="Season2_1">اول : چگونه حلقه طلایی اپوکسی رزین ایجاد کنیم</string>
     <string name="Season2_2">دوم : آموزش ساخت گوشواره چوب و رزین</string>

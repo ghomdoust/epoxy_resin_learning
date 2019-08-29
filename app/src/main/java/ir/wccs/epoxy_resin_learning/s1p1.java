@@ -15,7 +15,7 @@ public class s1p1 extends AppCompatActivity {
         setContentView(R.layout.s1p1);
 
         VideoView videoView;
-        final String VIDEO_PATH = "https://as10.cdn.asset.aparat.com/aparat-video/eb79973665d6ffc0a68acad3752887e816511141-480p__45609.mp4";
+        final String VIDEO_PATH = "https://as11.cdn.asset.aparat.com/aparat-video/b8dd3b9553ce433ec5285be6e4fe42ce16351445-1080p__91524.mp4";
         MediaController mediaController;
         videoView = (VideoView)findViewById(R.id.video_View);
         videoView.setVideoPath(VIDEO_PATH);

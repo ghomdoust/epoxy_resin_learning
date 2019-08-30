@@ -18,7 +18,7 @@
         <activity android:name=".season4" />
         <activity android:name=".season3" />
         <activity android:name=".season2" />
-        <activity android:name=".s1p1" />
+        <activity android:name=".s1p1"/>
         <activity android:name=".season1" />
         <activity
             android:name=".SplashActivity"

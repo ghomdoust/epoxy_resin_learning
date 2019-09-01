@@ -1,37 +1,158 @@
 package ir.wccs.epoxy_resin_learning;
 
+
+import android.app.DownloadManager;
+import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.Window;
-import android.view.WindowManager;
-import android.widget.MediaController;
-import android.widget.VideoView;
+import android.view.View;
+import android.webkit.DownloadListener;
+import android.webkit.WebChromeClient;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
+import android.widget.FrameLayout;
+import android.widget.ProgressBar;
+import android.widget.Toast;
 
 
 public class s1p1 extends AppCompatActivity {
 
+
+    WebView mWebView;
+    ProgressBar progressBar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
-        getWindow().setFlags(
-                WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                WindowManager.LayoutParams.FLAG_FULLSCREEN);
-
-
         setContentView(R.layout.s1p1);
-        VideoView videoView;
-        final String VIDEO_PATH = "https://wccs.ir/download/season1/intro1.mp4";
-        MediaController mediaController;
-        videoView = (VideoView)findViewById(R.id.video_View);
-        videoView.setVideoPath(VIDEO_PATH);
-        mediaController = new MediaController(s1p1.this);
-        mediaController.setAnchorView(videoView);
-        videoView.setMediaController(mediaController);
-        videoView.start();
+
+
+
+
+        progressBar = (ProgressBar) findViewById(R.id.progressbar);
+        mWebView = (WebView) findViewById(R.id.mWebView);
+
+        progressBar.setVisibility(View.VISIBLE);
+        mWebView.setWebViewClient(new s1p1.Browser_home());
+        mWebView.setWebChromeClient(new s1p1.MyChrome());
+        WebSettings webSettings = mWebView.getSettings();
+        mWebView.getSettings().setJavaScriptEnabled(true);
+        mWebView.getSettings().setLoadWithOverviewMode(true);
+        mWebView.getSettings().setUseWideViewPort(true);
+
+        mWebView.getSettings().setSupportZoom(true);
+        mWebView.getSettings().setBuiltInZoomControls(true);
+        mWebView.getSettings().setDisplayZoomControls(false);
+
+        mWebView.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
+        mWebView.setScrollbarFadingEnabled(false);
+        webSettings.setJavaScriptEnabled(true);
+        webSettings.setAllowFileAccess(true);
+        webSettings.setAppCacheEnabled(true);
+        loadWebsite();
 
 
     }
+
+
+
+
+    private void loadWebsite() {
+        ConnectivityManager cm = (ConnectivityManager) getApplication().getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo netInfo = cm.getActiveNetworkInfo();
+        if (netInfo != null && netInfo.isConnectedOrConnecting()) {
+            mWebView.loadUrl("https://wccs.ir/download/season1/intro1.mp4");
+        } else {
+            mWebView.setVisibility(View.GONE);
+        }
+
+        mWebView.setDownloadListener(new DownloadListener() {
+            @Override
+            public void onDownloadStart(String url, String userAgent, String contentDisposition, String mimetype, long contentLength) {
+
+                DownloadManager.Request myRequest = new DownloadManager.Request(Uri.parse(url));
+                myRequest.allowScanningByMediaScanner();
+                myRequest.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+
+                DownloadManager myManager = (DownloadManager) getSystemService(DOWNLOAD_SERVICE);
+                myManager.enqueue(myRequest);
+
+                Toast.makeText(s1p1.this,"فایل شما در حال دانلود می باشد ...", Toast.LENGTH_SHORT).show();
+
+
+            }
+        });
+
+    }
+
+    class Browser_home extends WebViewClient {
+
+        Browser_home() {
+        }
+
+        @Override
+        public void onPageStarted(WebView view, String url, Bitmap favicon) {
+            super.onPageStarted(view, url, favicon);
+
+        }
+
+        @Override
+        public void onPageFinished(WebView view, String url) {
+            setTitle(view.getTitle());
+            progressBar.setVisibility(View.GONE);
+            super.onPageFinished(view, url);
+
+        }
+    }
+
+    private class MyChrome extends WebChromeClient {
+
+        private View mCustomView;
+        private WebChromeClient.CustomViewCallback mCustomViewCallback;
+        protected FrameLayout mFullscreenContainer;
+        private int mOriginalOrientation;
+        private int mOriginalSystemUiVisibility;
+
+        MyChrome() {}
+
+        public Bitmap getDefaultVideoPoster()
+        {
+            if (mCustomView == null) {
+                return null;
+            }
+            return BitmapFactory.decodeResource(getApplicationContext().getResources(), 2130837573);
+        }
+
+        public void onHideCustomView()
+        {
+            ((FrameLayout)getWindow().getDecorView()).removeView(this.mCustomView);
+            this.mCustomView = null;
+            getWindow().getDecorView().setSystemUiVisibility(this.mOriginalSystemUiVisibility);
+            setRequestedOrientation(this.mOriginalOrientation);
+            this.mCustomViewCallback.onCustomViewHidden();
+            this.mCustomViewCallback = null;
+        }
+
+        public void onShowCustomView(View paramView, WebChromeClient.CustomViewCallback paramCustomViewCallback)
+        {
+            if (this.mCustomView != null)
+            {
+                onHideCustomView();
+                return;
+            }
+            this.mCustomView = paramView;
+            this.mOriginalSystemUiVisibility = getWindow().getDecorView().getSystemUiVisibility();
+            this.mOriginalOrientation = getRequestedOrientation();
+            this.mCustomViewCallback = paramCustomViewCallback;
+            ((FrameLayout)getWindow().getDecorView()).addView(this.mCustomView, new FrameLayout.LayoutParams(-1, -1));
+            getWindow().getDecorView().setSystemUiVisibility(3846);
+        }
+    }
+
 }

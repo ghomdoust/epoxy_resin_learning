@@ -44,7 +44,7 @@ public class season1 extends AppCompatActivity {
         s1p1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(season1.this,s1p1.class);
+                Intent intent = new Intent(season1.this,s1p3.class);
                 startActivity(intent);
             }
         });

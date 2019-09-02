@@ -42,7 +42,7 @@ public class s1p1 extends AppCompatActivity {
         mWebView.setWebViewClient(new s1p1.Browser_home());
         mWebView.setWebChromeClient(new s1p1.MyChrome());
         WebSettings webSettings = mWebView.getSettings();
-        mWebView.getSettings().setJavaScriptEnabled(true);
+
         mWebView.getSettings().setLoadWithOverviewMode(true);
         mWebView.getSettings().setUseWideViewPort(true);
 
@@ -52,7 +52,7 @@ public class s1p1 extends AppCompatActivity {
 
         mWebView.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
         mWebView.setScrollbarFadingEnabled(false);
-        webSettings.setJavaScriptEnabled(true);
+
         webSettings.setAllowFileAccess(true);
         webSettings.setAppCacheEnabled(true);
         loadWebsite();

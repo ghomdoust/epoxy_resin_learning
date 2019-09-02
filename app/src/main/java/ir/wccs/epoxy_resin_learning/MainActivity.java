@@ -105,7 +105,8 @@ public class MainActivity extends AppCompatActivity {
 
         final Animation animation7= AnimationUtils.loadAnimation(this,R.anim.alpha);
 
-
+    }
+}
         /*
         ibtn1.setOnClickListener(new ImageButton.OnClickListener() {
             @Override
@@ -155,5 +156,4 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    }
-}
+

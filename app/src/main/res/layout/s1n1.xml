@@ -22,7 +22,7 @@
             android:padding="10dp">
 
             <Button
-                android:id="@+id/btns1p1"
+                android:id="@+id/btns1n1p1"
                 style="@style/ButtonStyleList"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"

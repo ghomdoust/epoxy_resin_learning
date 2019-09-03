@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".s1n1" android:parentActivityName=".season1"/>
+        <activity android:name=".s1n1pre" android:parentActivityName=".season1" />
+        <activity android:name=".s1n1p2_1" />
+        <activity android:name=".s1n1p1" />
+        <activity
+            android:name=".s1n1"
+            android:parentActivityName=".season1" />
         <activity android:name=".s1p3" />
         <activity android:name=".s1p2" />
         <activity android:name=".season6" />
@@ -18,10 +23,12 @@
         <activity android:name=".season3" />
         <activity android:name=".season2" />
         <activity android:name=".s1p1" />
-        <activity android:name=".season1" android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".season1"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".SplashActivity"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,10 +37,10 @@
         </activity>
         <activity android:name=".MainActivity" />
     </application>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <uses-permission android:name="android.permission.INTERNET" />
 

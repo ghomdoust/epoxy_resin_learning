@@ -13,8 +13,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="4">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -23,7 +22,7 @@
             android:padding="10dp">
 
             <Button
-                android:id="@+id/btns1p1"
+                android:id="@+id/btns1n1pre"
                 style="@style/ButtonStyleList"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -33,7 +32,7 @@
                 android:textColor="@color/TextColor" />
 
             <Button
-                android:id="@+id/btns1p2"
+                android:id="@+id/btns1n1"
                 style="@style/ButtonStyleList"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -43,7 +42,7 @@
                 android:textColor="@color/TextColor" />
 
             <Button
-                android:id="@+id/btns1p3"
+                android:id="@+id/btns1n2"
                 style="@style/ButtonStyleList"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -53,7 +52,7 @@
                 android:textColor="@color/TextColor" />
 
             <Button
-                android:id="@+id/btns1p4"
+                android:id="@+id/btns1n3"
                 style="@style/ButtonStyleList"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -65,7 +64,7 @@
                 tools:layout_editor_absoluteY="250dp" />
 
             <Button
-                android:id="@+id/btns1p5"
+                android:id="@+id/btns1n4"
                 style="@style/ButtonStyleList"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -75,7 +74,7 @@
                 android:textColor="@color/TextColor" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btns1n5"
                 style="@style/ButtonStyleList"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -83,6 +82,41 @@
                 android:background="@drawable/btn_selected"
                 android:text="@string/Season1_6" />
 
+            <Button
+                android:id="@+id/btns1n6"
+                style="@style/ButtonStyleList"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_selected"
+                android:text="@string/Season1_7" />
+
+            <Button
+                android:id="@+id/btns1n7"
+                style="@style/ButtonStyleList"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_selected"
+                android:text="@string/Season1_8" />
+
+            <Button
+                android:id="@+id/btns1n8"
+                style="@style/ButtonStyleList"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_selected"
+                android:text="@string/Season1_9" />
+
+            <Button
+                android:id="@+id/btns1n9"
+                style="@style/ButtonStyleList"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_selected"
+                android:text="@string/Season1_10" />
 
         </LinearLayout>
 

@@ -12,16 +12,23 @@
     <string name="Season9">فصل نهم : ابزارآلات مورد نیاز</string>
     <string name="Season10">فصل دهم : ابزارآلات مورد نیاز</string>
     //سرفصل های فصل اول//
-    <string name="Season1_1">اول : چگونه حلقه طلایی اپوکسی رزین ایجاد کنیم</string>
-    <string name="Season1_2">دوم : آموزش ساخت گوشواره چوب و رزین</string>
-    <string name="Season1_3">سوم : فیلم اموزش ساختن حلقه رزین و چوب</string>
-    <string name="Season1_4">چهارم : آموزش درست کردن انگشتر و زیورآلات رزین اپوکسی</string>
-    <string name="Season1_5">پنجم : زیورآلات برنز و برنج</string>
-    <string name="Season1_6">ششم : میزچوبی</string>
-    <string name="Season1_7">هفتم : کف پوش رزین اپوکشی</string>
-    <string name="Season1_8">هشتم : ابزارآلات مورد نیاز</string>
-    <string name="Season1_9">نهم : ابزارآلات مورد نیاز</string>
-    <string name="Season1_10">دهم : ابزارآلات مورد نیاز</string>
+    <string name="Season1_1">آشنایی با مواد و ابزار مورد نیاز</string>
+    <string name="Season1_2">فصل اول</string>
+    //فصل اول - بخش اول//
+    <string name="Season1_1_1">آشنایی با مواد و ابزار مورد نیاز</string>
+    <string name="Season1_1_2">فصل اول</string>
+    <string name="Season1_1_3">فصل دوم</string>
+    <string name="Season1_1_4">فصل سوم</string>
+    <string name="Season1_1_5">فصل چهارم</string>
+
+    <string name="Season1_3">فصل دوم</string>
+    <string name="Season1_4">فصل سوم</string>
+    <string name="Season1_5">فصل چهارم</string>
+    <string name="Season1_6">فصل پنجم</string>
+    <string name="Season1_7">فصل ششم</string>
+    <string name="Season1_8">فصل هفتم</string>
+    <string name="Season1_9">فصل هشتم</string>
+    <string name="Season1_10">فصل نهم</string>
     //سرفصل های فصل دوم//
     <string name="Season2_1">اول : چگونه حلقه طلایی اپوکسی رزین ایجاد کنیم</string>
     <string name="Season2_2">دوم : آموزش ساخت گوشواره چوب و رزین</string>

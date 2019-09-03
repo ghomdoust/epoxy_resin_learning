@@ -7,10 +7,9 @@
     android:layout_gravity="center_vertical"
     android:background="#D3D7FA"
     android:orientation="vertical"
-    tools:context=".SEASON3"
+    tools:context=".s1n1"
     android:theme="@style/Theme.AppCompat.NoActionBar"
     android:backgroundTint="@color/Text_Color_ground">
-
 
     <ScrollView
         android:layout_width="match_parent"
@@ -64,30 +63,10 @@
                 tools:layout_editor_absoluteX="34dp"
                 tools:layout_editor_absoluteY="250dp" />
 
-            <Button
-                android:id="@+id/btns1p5"
-                style="@style/ButtonStyleList"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:background="@drawable/btn_selected"
-                android:text="@string/Season1_5"
-                android:textColor="@color/TextColor" />
-
-            <Button
-                android:id="@+id/button"
-                style="@style/ButtonStyleList"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:background="@drawable/btn_selected"
-                android:text="@string/Season1_6" />
-
 
         </LinearLayout>
 
 
     </ScrollView>
-
 
 </LinearLayout>

@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.ImageButton;
 import android.widget.Button;
 
 
@@ -27,24 +26,14 @@ public class season1 extends AppCompatActivity {
         setContentView(R.layout.season1);
 
 
-        final ImageButton back = (ImageButton) findViewById(R.id.ibtnback);
+
         final Button s1p1 = (Button) findViewById(R.id.btns1p1);
-
-
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(season1.this,MainActivity.class);
-                startActivity(intent);
-                finish();
-            }
-        });
 
 
         s1p1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(season1.this,s1p3.class);
+                Intent intent = new Intent(season1.this,s1n1.class);
                 startActivity(intent);
             }
         });

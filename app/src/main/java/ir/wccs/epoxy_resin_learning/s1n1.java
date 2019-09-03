@@ -1,15 +1,13 @@
 package ir.wccs.epoxy_resin_learning;
 
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 
-public class season6 extends AppCompatActivity {
+public class s1n1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.season6);
-
-
- }
+        setContentView(R.layout.s1n1);
+    }
 }

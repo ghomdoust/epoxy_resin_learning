@@ -1,16 +1,12 @@
 package ir.wccs.epoxy_resin_learning;
 
-import android.os.AsyncTask;
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
 
 import com.github.barteksc.pdfviewer.PDFView;
-
-import java.io.BufferedInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.HttpURLConnection;
-import java.net.URL;
 
 public class s1n1p1 extends AppCompatActivity {
 
@@ -21,41 +17,42 @@ public class s1n1p1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.s1n1p1);
 
-        pdfView =(PDFView)findViewById(R.id.pdfView);
+        final Button s1n1p1 = (Button) findViewById(R.id.btns1n1p1);
+        final Button s1n1p2 = (Button) findViewById(R.id.btns1n1p2);
+        final Button s1n1p3 = (Button) findViewById(R.id.btns1n1p3);
+        final Button s1n1p4 = (Button) findViewById(R.id.btns1n1p4);
+        final Button s1n1p5 = (Button) findViewById(R.id.btns1n1p5);
+        final Button s1n1p6 = (Button) findViewById(R.id.btns1n1p6);
 
-        new RetrivePdfStream().execute("https://wccs.ir/download/resin/season1/season1/part1/abzar.pdf");
 
-    }
 
-    class RetrivePdfStream extends AsyncTask <String,Void, InputStream>
-    {
-
-        @Override
-        protected InputStream doInBackground(String... strings) {
-            InputStream inputStream = null;
-            try{
-                URL url = new URL(strings[0]);
-                HttpURLConnection urlConnection=(HttpURLConnection)url.openConnection();
-                if(urlConnection.getResponseCode()==200)
-                {
-                    inputStream=new BufferedInputStream(urlConnection.getInputStream());
-
-                }
+        s1n1p1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(s1n1p1.this,s1n1p1_1.class);
+                startActivity(intent);
             }
-
-            catch (IOException e)
-            {
-                return null;
+        });
+        s1n1p2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(s1n1p1.this,s1n1p1_1.class);
+                startActivity(intent);
             }
-
-            return inputStream;
-
-        }
-
-        @Override
-        protected void onPostExecute(InputStream inputStream) {
-            pdfView.fromStream(inputStream).load();
-
-        }
+        });
+        s1n1p3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(s1n1p1.this,s1n1p1_1.class);
+                startActivity(intent);
+            }
+        });
+        s1n1p4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(s1n1p1.this,s1n1p1_1.class);
+                startActivity(intent);
+            }
+        });
     }
 }

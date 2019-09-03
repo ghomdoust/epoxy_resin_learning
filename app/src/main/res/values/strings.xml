@@ -15,11 +15,13 @@
     <string name="Season1_1">آشنایی با مواد و ابزار مورد نیاز</string>
     <string name="Season1_2">فصل اول</string>
     //فصل اول - بخش اول//
-    <string name="Season1_1_1">آشنایی با مواد و ابزار مورد نیاز</string>
-    <string name="Season1_1_2">فصل اول</string>
-    <string name="Season1_1_3">فصل دوم</string>
-    <string name="Season1_1_4">فصل سوم</string>
-    <string name="Season1_1_5">فصل چهارم</string>
+    <string name="Season1_1_1">جلسه اول</string>
+    <string name="Season1_1_2">ویدیوی اول</string>
+    <string name="Season1_1_3">ویدیوی دوم</string>
+    <string name="Season1_1_4">ویدیوی سوم</string>
+    <string name="Season1_1_5">ویدیوی چهارم</string>
+    <string name="Season1_1_6">ویدیوی پنجم</string>
+
 
     <string name="Season1_3">فصل دوم</string>
     <string name="Season1_4">فصل سوم</string>

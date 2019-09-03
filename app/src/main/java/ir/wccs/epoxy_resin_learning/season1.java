@@ -47,7 +47,13 @@ public class season1 extends AppCompatActivity {
             }
         });
 
-
+        s1n1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(season1.this,s1n1p1.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }

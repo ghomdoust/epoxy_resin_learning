@@ -26,7 +26,7 @@
             android:layout_marginBottom="15dp"
             android:layout_weight="1"
             android:background="@drawable/btn_selected"
-            app:srcCompat="@drawable/ring" />
+            app:srcCompat="@drawable/menu_2_ring" />
 
         <ImageButton
             android:id="@+id/ibtn2"
@@ -37,7 +37,7 @@
             android:layout_marginBottom="15dp"
             android:layout_weight="1"
             android:background="@drawable/btn_selected"
-            app:srcCompat="@drawable/frame" />
+            app:srcCompat="@drawable/menu_4_frame" />
 
         <ImageButton
             android:id="@+id/ibtn3"
@@ -48,7 +48,7 @@
             android:layout_marginBottom="15dp"
             android:layout_weight="1"
             android:background="@drawable/btn_selected"
-            app:srcCompat="@drawable/shopping" />
+            app:srcCompat="@drawable/menu_6_shopping" />
     </LinearLayout>
 
     <LinearLayout
@@ -68,7 +68,7 @@
             android:layout_marginBottom="15dp"
             android:layout_weight="1"
             android:background="@drawable/btn_selected"
-            android:src="@drawable/learning" />
+            android:src="@drawable/menu_1_learning" />
 
         <ImageButton
             android:id="@+id/ibtn5"
@@ -79,7 +79,7 @@
             android:layout_marginBottom="15dp"
             android:layout_weight="1"
             android:background="@drawable/btn_selected"
-            android:src="@drawable/tabe" />
+            android:src="@drawable/menu_3_tabe" />
 
         <ImageButton
             android:id="@+id/ibtn6"
@@ -90,7 +90,7 @@
             android:layout_marginBottom="15dp"
             android:layout_weight="1"
             android:background="@drawable/btn_selected"
-            app:srcCompat="@drawable/abajor" />
+            app:srcCompat="@drawable/menu_5_abajor" />
     </LinearLayout>
 
 </LinearLayout>

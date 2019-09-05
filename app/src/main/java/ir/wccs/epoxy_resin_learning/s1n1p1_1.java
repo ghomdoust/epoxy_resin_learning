@@ -1,158 +1,61 @@
 package ir.wccs.epoxy_resin_learning;
 
-
-import android.app.DownloadManager;
-import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
-import android.net.Uri;
-import android.os.Bundle;
+import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
-import android.webkit.DownloadListener;
-import android.webkit.WebChromeClient;
-import android.webkit.WebSettings;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
-import android.widget.FrameLayout;
-import android.widget.ProgressBar;
-import android.widget.Toast;
+import android.os.Bundle;
 
+import com.github.barteksc.pdfviewer.PDFView;
+
+import java.io.BufferedInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
 
 public class s1n1p1_1 extends AppCompatActivity {
 
-
-    WebView mWebView;
-    ProgressBar progressBar;
+    PDFView pdfView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.s1n1p1_1);
 
+        pdfView =(PDFView)findViewById(R.id.pdfView);
 
-
-
-        progressBar = (ProgressBar) findViewById(R.id.progressbar);
-        mWebView = (WebView) findViewById(R.id.mWebView);
-
-        progressBar.setVisibility(View.VISIBLE);
-        mWebView.setWebViewClient(new s1n1p1_1.Browser_home());
-        mWebView.setWebChromeClient(new s1n1p1_1.MyChrome());
-        WebSettings webSettings = mWebView.getSettings();
-
-        mWebView.getSettings().setLoadWithOverviewMode(true);
-        mWebView.getSettings().setUseWideViewPort(true);
-
-        mWebView.getSettings().setSupportZoom(true);
-        mWebView.getSettings().setBuiltInZoomControls(true);
-        mWebView.getSettings().setDisplayZoomControls(false);
-
-        mWebView.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
-        mWebView.setScrollbarFadingEnabled(false);
-
-        webSettings.setAllowFileAccess(true);
-        webSettings.setAppCacheEnabled(true);
-        loadWebsite();
-
+        new RetrivePdfStream().execute("https://wccs.ir/download/resin/season1/season1/part1/season1.pdf");
 
     }
 
+    class RetrivePdfStream extends AsyncTask <String,Void, InputStream>
+    {
 
+        @Override
+        protected InputStream doInBackground(String... strings) {
+            InputStream inputStream = null;
+            try{
+                URL url = new URL(strings[0]);
+                HttpURLConnection urlConnection=(HttpURLConnection)url.openConnection();
+                if(urlConnection.getResponseCode()==200)
+                {
+                    inputStream=new BufferedInputStream(urlConnection.getInputStream());
 
-
-    private void loadWebsite() {
-        ConnectivityManager cm = (ConnectivityManager) getApplication().getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo netInfo = cm.getActiveNetworkInfo();
-        if (netInfo != null && netInfo.isConnectedOrConnecting()) {
-            mWebView.loadUrl("https://wccs.ir/download/resin/season1/season1/part1/season1p1.mp4");
-        } else {
-            mWebView.setVisibility(View.GONE);
-        }
-
-        mWebView.setDownloadListener(new DownloadListener() {
-            @Override
-            public void onDownloadStart(String url, String userAgent, String contentDisposition, String mimetype, long contentLength) {
-
-                DownloadManager.Request myRequest = new DownloadManager.Request(Uri.parse(url));
-                myRequest.allowScanningByMediaScanner();
-                myRequest.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
-
-                DownloadManager myManager = (DownloadManager) getSystemService(DOWNLOAD_SERVICE);
-                myManager.enqueue(myRequest);
-
-                Toast.makeText(s1n1p1_1.this,"فایل شما در حال دانلود می باشد ...", Toast.LENGTH_SHORT).show();
-
-
+                }
             }
-        });
 
-    }
-
-    class Browser_home extends WebViewClient {
-
-        Browser_home() {
-        }
-
-        @Override
-        public void onPageStarted(WebView view, String url, Bitmap favicon) {
-            super.onPageStarted(view, url, favicon);
-
-        }
-
-        @Override
-        public void onPageFinished(WebView view, String url) {
-            setTitle(view.getTitle());
-            progressBar.setVisibility(View.GONE);
-            super.onPageFinished(view, url);
-
-        }
-    }
-
-    private class MyChrome extends WebChromeClient {
-
-        private View mCustomView;
-        private WebChromeClient.CustomViewCallback mCustomViewCallback;
-        protected FrameLayout mFullscreenContainer;
-        private int mOriginalOrientation;
-        private int mOriginalSystemUiVisibility;
-
-        MyChrome() {}
-
-        public Bitmap getDefaultVideoPoster()
-        {
-            if (mCustomView == null) {
+            catch (IOException e)
+            {
                 return null;
             }
-            return BitmapFactory.decodeResource(getApplicationContext().getResources(), 2130837573);
+
+            return inputStream;
+
         }
 
-        public void onHideCustomView()
-        {
-            ((FrameLayout)getWindow().getDecorView()).removeView(this.mCustomView);
-            this.mCustomView = null;
-            getWindow().getDecorView().setSystemUiVisibility(this.mOriginalSystemUiVisibility);
-            setRequestedOrientation(this.mOriginalOrientation);
-            this.mCustomViewCallback.onCustomViewHidden();
-            this.mCustomViewCallback = null;
-        }
+        @Override
+        protected void onPostExecute(InputStream inputStream) {
+            pdfView.fromStream(inputStream).load();
 
-        public void onShowCustomView(View paramView, WebChromeClient.CustomViewCallback paramCustomViewCallback)
-        {
-            if (this.mCustomView != null)
-            {
-                onHideCustomView();
-                return;
-            }
-            this.mCustomView = paramView;
-            this.mOriginalSystemUiVisibility = getWindow().getDecorView().getSystemUiVisibility();
-            this.mOriginalOrientation = getRequestedOrientation();
-            this.mCustomViewCallback = paramCustomViewCallback;
-            ((FrameLayout)getWindow().getDecorView()).addView(this.mCustomView, new FrameLayout.LayoutParams(-1, -1));
-            getWindow().getDecorView().setSystemUiVisibility(3846);
         }
     }
-
 }

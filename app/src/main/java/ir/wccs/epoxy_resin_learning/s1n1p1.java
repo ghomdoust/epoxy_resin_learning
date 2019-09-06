@@ -36,14 +36,14 @@ public class s1n1p1 extends AppCompatActivity {
         s1n1p2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(s1n1p1.this,s1n1p1_1.class);
+                Intent intent = new Intent(s1n1p1.this,s1n1p1_2.class);
                 startActivity(intent);
             }
         });
         s1n1p3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(s1n1p1.this,s1n1p1_1.class);
+                Intent intent = new Intent(s1n1p1.this,s1n1p1_4.class);
                 startActivity(intent);
             }
         });

@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    android:background="@color/Button_Color_ground"
     android:orientation="horizontal"
     android:padding="15dp"
-    android:background="@color/Text_Color_ground">
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="0dp"
@@ -22,33 +22,33 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_gravity="center"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
             android:layout_weight="1"
             android:background="@drawable/btn_selected"
-            app:srcCompat="@drawable/menu_2_ring" />
+            app:srcCompat="@drawable/menu_2_ring1" />
 
         <ImageButton
             android:id="@+id/ibtn2"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_gravity="center"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
             android:layout_weight="1"
             android:background="@drawable/btn_selected"
-            app:srcCompat="@drawable/menu_4_frame" />
+            app:srcCompat="@drawable/menu_4_tablo1" />
 
         <ImageButton
             android:id="@+id/ibtn3"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_gravity="center"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
             android:layout_weight="1"
             android:background="@drawable/btn_selected"
-            app:srcCompat="@drawable/menu_6_shopping" />
+            app:srcCompat="@drawable/menu_6_shopping1" />
     </LinearLayout>
 
     <LinearLayout
@@ -64,33 +64,33 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_gravity="center"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
             android:layout_weight="1"
             android:background="@drawable/btn_selected"
-            android:src="@drawable/menu_1_learning" />
+            android:src="@drawable/menu_1_learning1" />
 
         <ImageButton
             android:id="@+id/ibtn5"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_gravity="center"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
             android:layout_weight="1"
             android:background="@drawable/btn_selected"
-            android:src="@drawable/menu_3_tabe" />
+            android:src="@drawable/menu_3_table1" />
 
         <ImageButton
             android:id="@+id/ibtn6"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_gravity="center"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
             android:layout_weight="1"
             android:background="@drawable/btn_selected"
-            app:srcCompat="@drawable/menu_5_abajor" />
+            app:srcCompat="@drawable/menu_5_abajor1" />
     </LinearLayout>
 
 </LinearLayout>

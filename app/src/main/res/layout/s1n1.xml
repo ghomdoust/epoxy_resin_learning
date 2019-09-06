@@ -6,10 +6,10 @@
     android:layout_height="match_parent"
     android:layout_gravity="center_vertical"
     android:background="#D3D7FA"
+    android:backgroundTint="@color/Button_Color_ground"
     android:orientation="vertical"
-    tools:context=".s1n1"
     android:theme="@style/Theme.AppCompat.NoActionBar"
-    android:backgroundTint="@color/Text_Color_ground">
+    tools:context=".s1n1">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -25,9 +25,8 @@
                 android:id="@+id/btns1n1p1"
                 style="@style/ButtonStyleList"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:background="@drawable/btn_selected"
+                android:layout_height="80dp"
+                android:background="@drawable/button_1_learning"
                 android:text="@string/Season1_1"
                 android:textColor="@color/TextColor" />
 
@@ -35,9 +34,8 @@
                 android:id="@+id/btns1p2"
                 style="@style/ButtonStyleList"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:background="@drawable/btn_selected"
+                android:layout_height="80dp"
+                android:background="@drawable/button_1_learning"
                 android:text="@string/Season1_2"
                 android:textColor="@color/TextColor" />
 
@@ -45,9 +43,8 @@
                 android:id="@+id/btns1p3"
                 style="@style/ButtonStyleList"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:background="@drawable/btn_selected"
+                android:layout_height="80dp"
+                android:background="@drawable/button_1_learning"
                 android:text="@string/Season1_3"
                 android:textColor="@color/TextColor" />
 
@@ -55,9 +52,8 @@
                 android:id="@+id/btns1p4"
                 style="@style/ButtonStyleList"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:background="@drawable/btn_selected"
+                android:layout_height="80dp"
+                android:background="@drawable/button_1_learning"
                 android:text="@string/Season1_4"
                 android:textColor="@color/TextColor"
                 tools:layout_editor_absoluteX="34dp"

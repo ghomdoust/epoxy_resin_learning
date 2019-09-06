@@ -1,6 +1,6 @@
 package ir.wccs.epoxy_resin_learning;
 
-
+import android.annotation.SuppressLint;
 import android.app.DownloadManager;
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -20,27 +20,29 @@ import android.widget.FrameLayout;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+public class sample_video_view extends AppCompatActivity {
 
-public class s1p2 extends AppCompatActivity {
+
 
 
     WebView mWebView;
     ProgressBar progressBar;
 
+
+
+    @SuppressLint("SetJavaScriptEnabled")
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.s1p2);
-
-
-
+        setContentView(R.layout.sample_video_view);
 
         progressBar = (ProgressBar) findViewById(R.id.progressbar);
         mWebView = (WebView) findViewById(R.id.mWebView);
 
         progressBar.setVisibility(View.VISIBLE);
-        mWebView.setWebViewClient(new s1p2.Browser_home());
-        mWebView.setWebChromeClient(new s1p2.MyChrome());
+        mWebView.setWebViewClient(new sample_video_view.Browser_home());
+        mWebView.setWebChromeClient(new sample_video_view.MyChrome());
         WebSettings webSettings = mWebView.getSettings();
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.getSettings().setLoadWithOverviewMode(true);
@@ -58,16 +60,14 @@ public class s1p2 extends AppCompatActivity {
         loadWebsite();
 
 
+
     }
-
-
-
 
     private void loadWebsite() {
         ConnectivityManager cm = (ConnectivityManager) getApplication().getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo netInfo = cm.getActiveNetworkInfo();
         if (netInfo != null && netInfo.isConnectedOrConnecting()) {
-            mWebView.loadUrl("https://wccs.ir/download/season1/abzar.pdf");
+            mWebView.loadUrl("https://wccs.ir/download/resin/season1/season1/season1p1.mp4");
         } else {
             mWebView.setVisibility(View.GONE);
         }
@@ -83,7 +83,7 @@ public class s1p2 extends AppCompatActivity {
                 DownloadManager myManager = (DownloadManager) getSystemService(DOWNLOAD_SERVICE);
                 myManager.enqueue(myRequest);
 
-                Toast.makeText(s1p2.this,"فایل شما در حال دانلود می باشد ...", Toast.LENGTH_SHORT).show();
+                Toast.makeText(sample_video_view.this,"Your file is downloading...", Toast.LENGTH_SHORT).show();
 
 
             }

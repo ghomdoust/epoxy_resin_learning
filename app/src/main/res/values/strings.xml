@@ -13,17 +13,23 @@
     <string name="Season10">فصل دهم : ابزارآلات مورد نیاز</string>
     //سرفصل های فصل اول//
     <string name="Season1_1">آشنایی با مواد و ابزار مورد نیاز</string>
-    <string name="Season1_2">فصل اول</string>
-    //فصل اول - بخش اول//
-    <string name="Season1_1_1">جلسه اول</string>
-    <string name="Season1_1_2">ویدیوی اول</string>
-    <string name="Season1_1_3">ویدیوی دوم</string>
-    <string name="Season1_1_4">ویدیوی سوم</string>
-    <string name="Season1_1_5">ویدیوی چهارم</string>
-    <string name="Season1_1_6">ویدیوی پنجم</string>
+    <string name="Season1_2">آشنایی با رزین</string>
+    //فصل اول//
+    <string name="Season1_1_1">رزین چیست ؟</string>
+    <string name="Season1_1_2">انواع رزین</string>
+    <string name="Season1_1_3">خشک کردن انواع رزین</string>
+    <string name="Season1_1_4">در شناسایی و خرید رزین حرفه ای شوید</string>
+    <string name="Season1_1_5">نقش روان کننده در رزین اپوکسی</string>
+    <string name="Season1_1_6">حلال ها و رقیق کننده ها در رزین اپوکسی</string>
+    <string name="Season1_1_7">ویژگی های دیگر رزین ها</string>
+    <string name="Season1_1_8">ویژگی های ظرف ترکیب رزین و هاردنر</string>
+    <string name="Season1_1_9">روش ترکیب کردن رزین و هاردنر - بصورت تئوری و عملی</string>
+    <string name="Season1_1_10">همزن باید چه ویژگی هایی داشته باشد ؟</string>
+    <string name="Season1_1_11">نکات بسیار مهم در مورد ترکیب رزین و هاردنر</string>
 
 
-    <string name="Season1_3">فصل دوم</string>
+
+    <string name="Season1_3">آموزش کار بار رزین</string>
     <string name="Season1_4">فصل سوم</string>
     <string name="Season1_5">فصل چهارم</string>
     <string name="Season1_6">فصل پنجم</string>
@@ -85,11 +91,5 @@
     <string name="Season6_7">هفتم : کف پوش رزین اپوکشی</string>
     <string name="Season6_8">هشتم : ابزارآلات مورد نیاز</string>
     <string name="Season6_9">نهم : ابزارآلات مورد نیاز</string>
-    <string name="Season6_10">سلام دوستان هنرمندم به جلسه اول کلاس آموزشی من ، کلاس آموزش جواهرات رزینی خوش اومدید.
-
-در این جلسه قصد دارم اول مواد و ابزاری رو که برای ساخت زیورالات رزینی احتیاج دارید رو معرفی کنم و به صورت مفصل در مورد کاربرد هر یک از مواد و ابزار براتون توضیح بدم.
-
-البته در هر جلسه مجددا به تفکیک براتون مواد و ابزار مربوط به همون جلسه رو یاد آوری می کنم.
-
- مواد و ابزار مورد نیاز برای این کلاس رو در قالب یک پک جامع براتون تهیه کردم که می تونید خریداری  کنید</string>
+    <string name="Season6_10">به جلسه اول خوش اومدید.  در این جلسه قصد دارم اول مواد  و ابزاری رو که برای ساخت زیورالات رزینی احتیاج دارید رو معرفی کنم و به صورت مفصل در مورد کاربرد هر یک از مواد و ابزار براتون توضیح بدم.  البته در هر جلسه مجددا به تفکیک براتون مواد و ابزار مربوط به همون جلسه رو یاد آوری می کنم. </string>
 </resources>

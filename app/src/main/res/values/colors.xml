@@ -9,9 +9,10 @@
     <color name="primaryTextColor">#B388FF</color>
     <color name="secondaryTextColor">#00B0FF</color>
     <color name="TextColor">#000000</color>
+    <color name="TextColorWhite">#FFFFFF</color>
     //Special
     <color name="for_round">#2196F3</color>
-    <color name="for_round_clicked">#E9390D</color>
+    <color name="for_round_clicked">#FFFFFF</color>
     <color name="back_ground">#0069C0</color>
     <color name="Text_Color_ground">#6EC6FF</color>
     <color name="Button_Color_ground">#010101</color>

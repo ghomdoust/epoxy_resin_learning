@@ -7,87 +7,118 @@
     android:layout_gravity="center_vertical"
     android:background="#D3D7FA"
     android:orientation="vertical"
-    tools:context=".SEASON3"
+    tools:context=".season3"
     android:theme="@style/Theme.AppCompat.NoActionBar"
     android:backgroundTint="@color/Text_Color_ground">
 
-
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/Button_Color_ground">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="10dp">
 
             <Button
-                android:id="@+id/btns1p1"
+                android:id="@+id/btns1n1"
                 style="@style/ButtonStyleList"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:background="@drawable/btn_selected"
-                android:text="@string/Season1_1"
+                android:layout_height="80dp"
+                android:background="@drawable/button_3_table"
+                android:text="@string/Season1_1_1"
                 android:textColor="@color/TextColor" />
 
             <Button
-                android:id="@+id/btns1p2"
+                android:id="@+id/btns1n2"
                 style="@style/ButtonStyleList"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:background="@drawable/btn_selected"
-                android:text="@string/Season1_2"
+                android:layout_height="80dp"
+                android:background="@drawable/button_3_table"
+                android:text="@string/Season1_1_2"
                 android:textColor="@color/TextColor" />
 
             <Button
-                android:id="@+id/btns1p3"
+                android:id="@+id/btns1n3"
                 style="@style/ButtonStyleList"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:background="@drawable/btn_selected"
-                android:text="@string/Season1_3"
-                android:textColor="@color/TextColor" />
-
-            <Button
-                android:id="@+id/btns1p4"
-                style="@style/ButtonStyleList"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:background="@drawable/btn_selected"
-                android:text="@string/Season1_4"
+                android:layout_height="80dp"
+                android:background="@drawable/button_3_table"
+                android:text="@string/Season1_1_3"
                 android:textColor="@color/TextColor"
                 tools:layout_editor_absoluteX="34dp"
                 tools:layout_editor_absoluteY="250dp" />
 
             <Button
-                android:id="@+id/btns1p5"
+                android:id="@+id/btns1n4"
                 style="@style/ButtonStyleList"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:background="@drawable/btn_selected"
-                android:text="@string/Season1_5"
+                android:layout_height="80dp"
+                android:background="@drawable/button_3_table"
+                android:text="@string/Season1_1_4"
                 android:textColor="@color/TextColor" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btns1n5"
                 style="@style/ButtonStyleList"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:background="@drawable/btn_selected"
-                android:text="@string/Season1_6" />
+                android:layout_height="80dp"
+                android:background="@drawable/button_3_table"
+                android:text="@string/Season1_1_5" />
 
+            <Button
+                android:id="@+id/btns1n6"
+                style="@style/ButtonStyleList"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/button_3_table"
+                android:text="@string/Season1_1_6" />
+
+            <Button
+                android:id="@+id/btns1n7"
+                style="@style/ButtonStyleList"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/button_3_table"
+                android:text="@string/Season1_1_7" />
+
+            <Button
+                android:id="@+id/btns1n8"
+                style="@style/ButtonStyleList"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/button_3_table"
+                android:text="@string/Season1_1_8" />
+
+            <Button
+                android:id="@+id/btns1n9"
+                style="@style/ButtonStyleList"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/button_3_table"
+                android:text="@string/Season1_1_9" />
+
+            <Button
+                android:id="@+id/btns1n10"
+                style="@style/ButtonStyleList"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/button_3_table"
+                android:text="@string/Season1_1_10" />
+
+            <Button
+                android:id="@+id/btns1n11"
+                style="@style/ButtonStyleList"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/button_3_table"
+                android:text="@string/Season1_1_11" />
 
         </LinearLayout>
 
 
     </ScrollView>
-
 
 </LinearLayout>

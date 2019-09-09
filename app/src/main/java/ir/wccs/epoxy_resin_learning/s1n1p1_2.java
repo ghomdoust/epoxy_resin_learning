@@ -35,7 +35,7 @@ public class s1n1p1_2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.s1n1p1_5);
+        setContentView(R.layout.s1n1p1_2);
 
         progressBar = (ProgressBar) findViewById(R.id.progressbar);
         mWebView = (WebView) findViewById(R.id.mWebView);
@@ -67,7 +67,7 @@ public class s1n1p1_2 extends AppCompatActivity {
         ConnectivityManager cm = (ConnectivityManager) getApplication().getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo netInfo = cm.getActiveNetworkInfo();
         if (netInfo != null && netInfo.isConnectedOrConnecting()) {
-            mWebView.loadUrl("https://wccs.ir/download/resin/season1/season1/season1p1.mp4");
+            mWebView.loadUrl("https://wccs.ir/download/resin/season1/part1/01.asf");
         } else {
             mWebView.setVisibility(View.GONE);
         }

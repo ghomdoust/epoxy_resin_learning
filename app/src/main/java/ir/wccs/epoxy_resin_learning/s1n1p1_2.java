@@ -67,7 +67,7 @@ public class s1n1p1_2 extends AppCompatActivity {
         ConnectivityManager cm = (ConnectivityManager) getApplication().getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo netInfo = cm.getActiveNetworkInfo();
         if (netInfo != null && netInfo.isConnectedOrConnecting()) {
-            mWebView.loadUrl("https://wccs.ir/download/resin/season1/part1/01.asf");
+            mWebView.loadUrl("https://wccs.ir/download/resin/part1/season1/02.asf");
         } else {
             mWebView.setVisibility(View.GONE);
         }

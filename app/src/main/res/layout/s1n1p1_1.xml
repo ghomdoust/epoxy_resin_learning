@@ -1,124 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center_vertical"
-    android:background="#D3D7FA"
-    android:orientation="vertical"
-    tools:context=".s1n1p1_1"
-    android:theme="@style/Theme.AppCompat.NoActionBar"
-    android:backgroundTint="@color/Text_Color_ground">
+    tools:context=".s1n1p1_1">
 
-    <ScrollView
+
+    <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/Button_Color_ground">
+        android:layout_height="match_parent">
 
-        <LinearLayout
+        <WebView
+            android:id="@+id/mWebView"
             android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            tools:ignore="RtlCompat" />
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="10dp">
-
-            <Button
-                android:id="@+id/btns1n1"
-                style="@style/ButtonStyleList"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:background="@drawable/button_1_learning"
-                android:text="@string/Season1_1_1"
-                android:textColor="@color/TextColor" />
-
-            <Button
-                android:id="@+id/btns1n2"
-                style="@style/ButtonStyleList"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:background="@drawable/button_1_learning"
-                android:text="@string/Season1_1_2"
-                android:textColor="@color/TextColor" />
-
-            <Button
-                android:id="@+id/btns1n3"
-                style="@style/ButtonStyleList"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:background="@drawable/button_1_learning"
-                android:text="@string/Season1_1_3"
-                android:textColor="@color/TextColor"
-                tools:layout_editor_absoluteX="34dp"
-                tools:layout_editor_absoluteY="250dp" />
-
-            <Button
-                android:id="@+id/btns1n4"
-                style="@style/ButtonStyleList"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:background="@drawable/button_1_learning"
-                android:text="@string/Season1_1_4"
-                android:textColor="@color/TextColor" />
-
-            <Button
-                android:id="@+id/btns1n5"
-                style="@style/ButtonStyleList"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:background="@drawable/button_1_learning"
-                android:text="@string/Season1_1_5" />
-
-            <Button
-                android:id="@+id/btns1n6"
-                style="@style/ButtonStyleList"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:background="@drawable/button_1_learning"
-                android:text="@string/Season1_1_6" />
-
-            <Button
-                android:id="@+id/btns1n7"
-                style="@style/ButtonStyleList"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:background="@drawable/button_1_learning"
-                android:text="@string/Season1_1_7" />
-
-            <Button
-                android:id="@+id/btns1n8"
-                style="@style/ButtonStyleList"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:background="@drawable/button_1_learning"
-                android:text="@string/Season1_1_8" />
-
-            <Button
-                android:id="@+id/btns1n9"
-                style="@style/ButtonStyleList"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:background="@drawable/button_1_learning"
-                android:text="@string/Season1_1_9" />
-
-            <Button
-                android:id="@+id/btns1n10"
-                style="@style/ButtonStyleList"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:background="@drawable/button_1_learning"
-                android:text="@string/Season1_1_10" />
-
-            <Button
-                android:id="@+id/btns1n11"
-                style="@style/ButtonStyleList"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:background="@drawable/button_1_learning"
-                android:text="@string/Season1_1_11" />
-
-        </LinearLayout>
+            android:layout_centerInParent="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
 
-    </ScrollView>
 
-</LinearLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</RelativeLayout>

@@ -18,7 +18,7 @@
         android:orientation="vertical">
 
         <ImageButton
-            android:id="@+id/ibtn1"
+            android:id="@+id/ibtn4"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_gravity="center"
@@ -29,7 +29,7 @@
             app:srcCompat="@drawable/menu_2_ring1" />
 
         <ImageButton
-            android:id="@+id/ibtn2"
+            android:id="@+id/ibtn5"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_gravity="center"
@@ -40,7 +40,7 @@
             app:srcCompat="@drawable/menu_4_tablo1" />
 
         <ImageButton
-            android:id="@+id/ibtn3"
+            android:id="@+id/ibtn6"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_gravity="center"
@@ -60,7 +60,7 @@
         android:orientation="vertical">
 
         <ImageButton
-            android:id="@+id/ibtn4"
+            android:id="@+id/ibtn1"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_gravity="center"
@@ -71,7 +71,7 @@
             android:src="@drawable/menu_1_learning1" />
 
         <ImageButton
-            android:id="@+id/ibtn5"
+            android:id="@+id/ibtn2"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_gravity="center"
@@ -82,7 +82,7 @@
             android:src="@drawable/menu_3_table1" />
 
         <ImageButton
-            android:id="@+id/ibtn6"
+            android:id="@+id/ibtn3"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_gravity="center"

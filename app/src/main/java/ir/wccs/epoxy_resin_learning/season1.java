@@ -39,6 +39,75 @@ public class season1 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+        s1n2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(season1.this,s1n1p1_2.class);
+                startActivity(intent);
+            }
+        });
+        s1n3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(season1.this,s1n1p1_3.class);
+                startActivity(intent);
+            }
+        });
+        s1n4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(season1.this,s1n1p1_4.class);
+                startActivity(intent);
+            }
+        });
+        s1n5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(season1.this,s1n1p1_5.class);
+                startActivity(intent);
+            }
+        });
+        s1n6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(season1.this,s1n1p1_6.class);
+                startActivity(intent);
+            }
+        });
+        s1n7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(season1.this,s1n1p1_7.class);
+                startActivity(intent);
+            }
+        });
+        s1n8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(season1.this,s1n1p1_8.class);
+                startActivity(intent);
+            }
+        });
+        s1n9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(season1.this,s1n1p1_9.class);
+                startActivity(intent);
+            }
+        });
+        s1n10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(season1.this,s1n1p1_10.class);
+                startActivity(intent);
+            }
+        });
+        s1n11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(season1.this,s1n1p1_11.class);
+                startActivity(intent);
+            }
+        });
     }
 }

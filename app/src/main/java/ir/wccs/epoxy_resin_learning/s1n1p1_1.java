@@ -1,54 +1,158 @@
 package ir.wccs.epoxy_resin_learning;
 
-import android.content.Intent;
+import android.annotation.SuppressLint;
+import android.app.DownloadManager;
+import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
-
+import android.webkit.DownloadListener;
+import android.webkit.WebChromeClient;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
+import android.widget.FrameLayout;
+import android.widget.ProgressBar;
+import android.widget.Toast;
 
 public class s1n1p1_1 extends AppCompatActivity {
 
 
 
 
-/*
-    final Button btns1p1 = (Button) findViewById(R.id.btns1p1);
-    final Button btns1p2 = (Button) findViewById(R.id.btns1p2);
-    final Button btns1p3 = (Button) findViewById(R.id.btns1p3);
-    final Button btns1p4 = (Button) findViewById(R.id.btns1p4);
-    final Button btns1p5 = (Button) findViewById(R.id.btns1p5);
-*/
+    WebView mWebView;
+    ProgressBar progressBar;
+
+
+
+    @SuppressLint("SetJavaScriptEnabled")
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.s1n1p1_1);
 
+        progressBar = (ProgressBar) findViewById(R.id.progressbar);
+        mWebView = (WebView) findViewById(R.id.mWebView);
+
+        progressBar.setVisibility(View.VISIBLE);
+        mWebView.setWebViewClient(new s1n1p1_1.Browser_home());
+        mWebView.setWebChromeClient(new s1n1p1_1.MyChrome());
+        WebSettings webSettings = mWebView.getSettings();
+        mWebView.getSettings().setJavaScriptEnabled(true);
+        mWebView.getSettings().setLoadWithOverviewMode(true);
+        mWebView.getSettings().setUseWideViewPort(true);
+
+        mWebView.getSettings().setSupportZoom(true);
+        mWebView.getSettings().setBuiltInZoomControls(true);
+        mWebView.getSettings().setDisplayZoomControls(false);
+
+        mWebView.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
+        mWebView.setScrollbarFadingEnabled(false);
+        webSettings.setJavaScriptEnabled(true);
+        webSettings.setAllowFileAccess(true);
+        webSettings.setAppCacheEnabled(true);
+        loadWebsite();
 
 
 
-        final Button s1n1 = (Button) findViewById(R.id.btns1n1);
-        final Button s1n2 = (Button) findViewById(R.id.btns1n2);
-        final Button s1n3 = (Button) findViewById(R.id.btns1n3);
-        final Button s1n4 = (Button) findViewById(R.id.btns1n4);
-        final Button s1n5 = (Button) findViewById(R.id.btns1n5);
-        final Button s1n6 = (Button) findViewById(R.id.btns1n6);
-        final Button s1n7 = (Button) findViewById(R.id.btns1n7);
-        final Button s1n8 = (Button) findViewById(R.id.btns1n8);
-        final Button s1n9 = (Button) findViewById(R.id.btns1n9);
-        final Button s1n10 = (Button) findViewById(R.id.btns1n10);
-        final Button s1n11 = (Button) findViewById(R.id.btns1n11);
+    }
 
+    private void loadWebsite() {
+        ConnectivityManager cm = (ConnectivityManager) getApplication().getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo netInfo = cm.getActiveNetworkInfo();
+        if (netInfo != null && netInfo.isConnectedOrConnecting()) {
+            mWebView.loadUrl("https://wccs.ir/download/resin/part1/season1/01.asf");
+        } else {
+            mWebView.setVisibility(View.GONE);
+        }
 
-
-        s1n1.setOnClickListener(new View.OnClickListener() {
+        mWebView.setDownloadListener(new DownloadListener() {
             @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(s1n1p1_1.this,s1n1p1_2.class);
-                startActivity(intent);
+            public void onDownloadStart(String url, String userAgent, String contentDisposition, String mimetype, long contentLength) {
+
+                DownloadManager.Request myRequest = new DownloadManager.Request(Uri.parse(url));
+                myRequest.allowScanningByMediaScanner();
+                myRequest.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+
+                DownloadManager myManager = (DownloadManager) getSystemService(DOWNLOAD_SERVICE);
+                myManager.enqueue(myRequest);
+
+                Toast.makeText(s1n1p1_1.this,"Your file is downloading...", Toast.LENGTH_SHORT).show();
+
+
             }
         });
 
     }
+
+    class Browser_home extends WebViewClient {
+
+        Browser_home() {
+        }
+
+        @Override
+        public void onPageStarted(WebView view, String url, Bitmap favicon) {
+            super.onPageStarted(view, url, favicon);
+
+        }
+
+        @Override
+        public void onPageFinished(WebView view, String url) {
+            setTitle(view.getTitle());
+            progressBar.setVisibility(View.GONE);
+            super.onPageFinished(view, url);
+
+        }
+    }
+
+    private class MyChrome extends WebChromeClient {
+
+        private View mCustomView;
+        private WebChromeClient.CustomViewCallback mCustomViewCallback;
+        protected FrameLayout mFullscreenContainer;
+        private int mOriginalOrientation;
+        private int mOriginalSystemUiVisibility;
+
+        MyChrome() {}
+
+        public Bitmap getDefaultVideoPoster()
+        {
+            if (mCustomView == null) {
+                return null;
+            }
+            return BitmapFactory.decodeResource(getApplicationContext().getResources(), 2130837573);
+        }
+
+        public void onHideCustomView()
+        {
+            ((FrameLayout)getWindow().getDecorView()).removeView(this.mCustomView);
+            this.mCustomView = null;
+            getWindow().getDecorView().setSystemUiVisibility(this.mOriginalSystemUiVisibility);
+            setRequestedOrientation(this.mOriginalOrientation);
+            this.mCustomViewCallback.onCustomViewHidden();
+            this.mCustomViewCallback = null;
+        }
+
+        public void onShowCustomView(View paramView, WebChromeClient.CustomViewCallback paramCustomViewCallback)
+        {
+            if (this.mCustomView != null)
+            {
+                onHideCustomView();
+                return;
+            }
+            this.mCustomView = paramView;
+            this.mOriginalSystemUiVisibility = getWindow().getDecorView().getSystemUiVisibility();
+            this.mOriginalOrientation = getRequestedOrientation();
+            this.mCustomViewCallback = paramCustomViewCallback;
+            ((FrameLayout)getWindow().getDecorView()).addView(this.mCustomView, new FrameLayout.LayoutParams(-1, -1));
+            getWindow().getDecorView().setSystemUiVisibility(3846);
+        }
+    }
+
 }

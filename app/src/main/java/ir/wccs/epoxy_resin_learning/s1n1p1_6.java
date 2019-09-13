@@ -67,7 +67,7 @@ public class s1n1p1_6 extends AppCompatActivity {
         ConnectivityManager cm = (ConnectivityManager) getApplication().getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo netInfo = cm.getActiveNetworkInfo();
         if (netInfo != null && netInfo.isConnectedOrConnecting()) {
-            mWebView.loadUrl("https://wccs.ir/download/resin/part1/season1/06.asf");
+            mWebView.loadUrl("https://hw7.cdn.asset.aparat.com/aparat-video/27b3f4e70565d7b096fa3e05eaa7df5616904092-1080p__16803.mp4");
         } else {
             mWebView.setVisibility(View.GONE);
         }
@@ -83,7 +83,7 @@ public class s1n1p1_6 extends AppCompatActivity {
                 DownloadManager myManager = (DownloadManager) getSystemService(DOWNLOAD_SERVICE);
                 myManager.enqueue(myRequest);
 
-                Toast.makeText(s1n1p1_6.this,"Your file is downloading...", Toast.LENGTH_SHORT).show();
+                Toast.makeText(s1n1p1_6.this,"ویدئوی شما در حال دانلود میباشد ...", Toast.LENGTH_SHORT).show();
 
 
             }

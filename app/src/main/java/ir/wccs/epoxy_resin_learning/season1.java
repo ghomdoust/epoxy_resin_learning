@@ -39,6 +39,7 @@ public class season1 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
         s1n2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -46,6 +47,7 @@ public class season1 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
         s1n3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -53,6 +55,7 @@ public class season1 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
         s1n4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -60,6 +63,7 @@ public class season1 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
         s1n5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -67,6 +71,7 @@ public class season1 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
         s1n6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -74,6 +79,7 @@ public class season1 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
         s1n7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -81,6 +87,7 @@ public class season1 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
         s1n8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -88,6 +95,7 @@ public class season1 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
         s1n9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -95,6 +103,7 @@ public class season1 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
         s1n10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -102,6 +111,7 @@ public class season1 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
         s1n11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -109,5 +119,6 @@ public class season1 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
     }
 }

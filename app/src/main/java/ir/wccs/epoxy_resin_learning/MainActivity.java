@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        ibtn4.setOnClickListener(new View.OnClickListener() {
+        ibtn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,season1.class);
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ibtn1.setOnClickListener(new View.OnClickListener() {
+        ibtn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,season2.class);
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ibtn2.setOnClickListener(new View.OnClickListener() {
+        ibtn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,season3.class);
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ibtn3.setOnClickListener(new View.OnClickListener() {
+        ibtn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,season4.class);

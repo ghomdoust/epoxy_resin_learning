@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".s2n1p1_13"></activity>
+        <activity android:name=".s5n1p1_5"></activity>
+        <activity android:name=".s5n1p1_4" />
+        <activity android:name=".s5n1p1_3" />
+        <activity android:name=".s5n1p1_2" />
+        <activity android:name=".s5n1p1_1" />
+        <activity android:name=".s2n1p1_13" />
         <activity android:name=".s2n1p1_12" />
         <activity android:name=".s2n1p1_11" />
         <activity android:name=".s2n1p1_10" />

@@ -45,6 +45,14 @@
     <string name="Season2_1_14"></string>
     <string name="Season2_1_15"></string>
 
+    //فصل پنجم//
+    <string name="Season5_1_1">آموزش نقاشی آبستره  1</string>
+    <string name="Season5_1_2">آموزش نقاشی آبستره  2</string>
+    <string name="Season5_1_3">نمونه نقاشی آبستره  1</string>
+    <string name="Season5_1_4">نمونه نقاشی آبستره  2</string>
+    <string name="Season5_1_5">نمونه نقاشی آبستره  3</string>
+    <string name="Season5_1_6">نمونه نقاشی آبستره  4</string>
+
 
     <string name="Season1_3">آموزش کار بار رزین</string>
     <string name="Season1_4">فصل سوم</string>

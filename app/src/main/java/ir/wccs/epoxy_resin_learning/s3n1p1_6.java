@@ -67,7 +67,7 @@ public class s3n1p1_6 extends AppCompatActivity {
         ConnectivityManager cm = (ConnectivityManager) getApplication().getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo netInfo = cm.getActiveNetworkInfo();
         if (netInfo != null && netInfo.isConnectedOrConnecting()) {
-            mWebView.loadUrl("https://hw18.cdn.asset.aparat.com/aparat-video/022040e2c5dea167116c6e6e2d45160b16992369-480p__26486.mp4");
+            mWebView.loadUrl("http://g1.asset.aparat.com//flv_video_new/5674/d5c5cd5b626fcd52d5578be9d62ed15517019177-480p.mp4");
         } else {
             mWebView.setVisibility(View.GONE);
         }

@@ -45,6 +45,19 @@
     <string name="Season2_1_14"></string>
     <string name="Season2_1_15"></string>
 
+
+
+    //فصل سوم//
+    <string name="Season3_1_1">آموزش کلیات ساخت آباژور</string>
+    <string name="Season3_1_2">ساخت پروژه کامل 1 مدت زمان 15 دقیقه</string>
+    <string name="Season3_1_3">ساخت پروژه کامل 2 مدت زمان 12 دقیقه</string>
+    <string name="Season3_1_4">ساخت پروژه کامل 3 مدت زمان 13 دقیقه</string>
+    <string name="Season3_1_5">ساخت پروژه کامل 4 مدت زمان 10 دقیقه</string>
+    <string name="Season3_1_6">ساخت پروژه کامل 5 مدت زمان 10 دقیقه</string>
+    <string name="Season3_1_7">ساخت پروژه کامل 6 مدت زمان 10 دقیقه</string>
+    <string name="Season3_1_8">ساخت پروژه کامل 7 مدت زمان 13 دقیقه</string>
+
+
     //فصل پنجم//
     <string name="Season5_1_1">آموزش نقاشی آبستره  1</string>
     <string name="Season5_1_2">آموزش نقاشی آبستره  2</string>

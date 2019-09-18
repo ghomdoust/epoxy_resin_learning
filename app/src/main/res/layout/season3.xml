@@ -28,7 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:background="@drawable/button_5_abajor"
-                android:text="@string/Season1_1_1"
+                android:text="@string/Season3_1_1"
                 android:textColor="@color/TextColor" />
 
             <Button
@@ -37,7 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:background="@drawable/button_5_abajor"
-                android:text="@string/Season1_1_2"
+                android:text="@string/Season3_1_2"
                 android:textColor="@color/TextColor" />
 
             <Button
@@ -46,7 +46,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:background="@drawable/button_5_abajor"
-                android:text="@string/Season1_1_3"
+                android:text="@string/Season3_1_3"
                 android:textColor="@color/TextColor"
                 tools:layout_editor_absoluteX="34dp"
                 tools:layout_editor_absoluteY="250dp" />
@@ -57,7 +57,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:background="@drawable/button_5_abajor"
-                android:text="@string/Season1_1_4"
+                android:text="@string/Season3_1_4"
                 android:textColor="@color/TextColor" />
 
             <Button
@@ -66,7 +66,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:background="@drawable/button_5_abajor"
-                android:text="@string/Season1_1_5" />
+                android:text="@string/Season3_1_5" />
 
             <Button
                 android:id="@+id/btns1n6"
@@ -74,7 +74,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:background="@drawable/button_5_abajor"
-                android:text="@string/Season1_1_6" />
+                android:text="@string/Season3_1_6" />
 
             <Button
                 android:id="@+id/btns1n7"
@@ -82,7 +82,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:background="@drawable/button_5_abajor"
-                android:text="@string/Season1_1_7" />
+                android:text="@string/Season3_1_7" />
 
             <Button
                 android:id="@+id/btns1n8"
@@ -90,31 +90,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:background="@drawable/button_5_abajor"
-                android:text="@string/Season1_1_8" />
+                android:text="@string/Season3_1_8" />
 
-            <Button
-                android:id="@+id/btns1n9"
-                style="@style/ButtonStyleList"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:background="@drawable/button_5_abajor"
-                android:text="@string/Season1_1_9" />
-
-            <Button
-                android:id="@+id/btns1n10"
-                style="@style/ButtonStyleList"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:background="@drawable/button_5_abajor"
-                android:text="@string/Season1_1_10" />
-
-            <Button
-                android:id="@+id/btns1n11"
-                style="@style/ButtonStyleList"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:background="@drawable/button_5_abajor"
-                android:text="@string/Season1_1_11" />
 
         </LinearLayout>
 

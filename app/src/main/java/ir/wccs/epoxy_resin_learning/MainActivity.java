@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -115,6 +116,25 @@ public class MainActivity extends AppCompatActivity {
         return super.onCreateOptionsMenu(menu);
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        if (item.getItemId()== R.id.action_main_program){
+
+            Intent intent = new Intent(MainActivity.this,main_program.class);
+            startActivity(intent);
+        }
+        if (item.getItemId()== R.id.action_about_us){
+
+            Intent intent = new Intent(MainActivity.this,about_us.class);
+            startActivity(intent);
+        }
+        if (item.getItemId()== R.id.action_exit){
+
+            System.exit(0);
+        }
+        return super.onOptionsItemSelected(item);
+    }
 }
 
 

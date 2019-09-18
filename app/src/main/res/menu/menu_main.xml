@@ -2,12 +2,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/main_program"
+        android:id="@+id/action_main_program"
         android:title="برنامه اصلی" />
     <item
-        android:id="@+id/about_us"
+        android:id="@+id/action_about_us"
         android:title="درباره ما" />
     <item
-        android:id="@+id/exit"
+        android:id="@+id/action_exit"
         android:title="خروج" />
 </menu>

@@ -66,67 +66,8 @@
     <string name="Season5_1_6">نمونه نقاشی آبستره  4</string>
 
 
-    <string name="Season1_3">آموزش کار بار رزین</string>
-    <string name="Season1_4">فصل سوم</string>
-    <string name="Season1_5">فصل چهارم</string>
-    <string name="Season1_6">فصل پنجم</string>
-    <string name="Season1_7">فصل ششم</string>
-    <string name="Season1_8">فصل هفتم</string>
-    <string name="Season1_9">فصل هشتم</string>
-    <string name="Season1_10">فصل نهم</string>
-    //سرفصل های فصل دوم//
-    <string name="Season2_1">اول : چگونه حلقه طلایی اپوکسی رزین ایجاد کنیم</string>
-    <string name="Season2_2">دوم : آموزش ساخت گوشواره چوب و رزین</string>
-    <string name="Season2_3">سوم : فیلم اموزش ساختن حلقه رزین و چوب</string>
-    <string name="Season2_4">چهارم : آموزش درست کردن انگشتر و زیورآلات رزین اپوکسی</string>
-    <string name="Season2_5">پنجم : زیورآلات برنز و برنج</string>
-    <string name="Season2_6">ششم : میزچوبی</string>
-    <string name="Season2_7">هفتم : کف پوش رزین اپوکشی</string>
-    <string name="Season2_8">هشتم : ابزارآلات مورد نیاز</string>
-    <string name="Season2_9">نهم : ابزارآلات مورد نیاز</string>
-    <string name="Season2_10">دهم : ابزارآلات مورد نیاز</string>
-    //سرفصل های فصل سوم//
-    <string name="Season3_1">اول : چگونه حلقه طلایی اپوکسی رزین ایجاد کنیم</string>
-    <string name="Season3_2">دوم : آموزش ساخت گوشواره چوب و رزین</string>
-    <string name="Season3_3">سوم : فیلم اموزش ساختن حلقه رزین و چوب</string>
-    <string name="Season3_4">چهارم : آموزش درست کردن انگشتر و زیورآلات رزین اپوکسی</string>
-    <string name="Season3_5">پنجم : زیورآلات برنز و برنج</string>
-    <string name="Season3_6">ششم : میزچوبی</string>
-    <string name="Season3_7">هفتم : کف پوش رزین اپوکشی</string>
-    <string name="Season3_8">هشتم : ابزارآلات مورد نیاز</string>
-    <string name="Season3_9">نهم : ابزارآلات مورد نیاز</string>
-    <string name="Season3_10">دهم : ابزارآلات مورد نیاز</string>
-    //سرفصل های فصل چهارم//
-    <string name="Season4_1">اول : چگونه حلقه طلایی اپوکسی رزین ایجاد کنیم</string>
-    <string name="Season4_2">دوم : آموزش ساخت گوشواره چوب و رزین</string>
-    <string name="Season4_3">سوم : فیلم اموزش ساختن حلقه رزین و چوب</string>
-    <string name="Season4_4">چهارم : آموزش درست کردن انگشتر و زیورآلات رزین اپوکسی</string>
-    <string name="Season4_5">پنجم : زیورآلات برنز و برنج</string>
-    <string name="Season4_6">ششم : میزچوبی</string>
-    <string name="Season4_7">هفتم : کف پوش رزین اپوکشی</string>
-    <string name="Season4_8">هشتم : ابزارآلات مورد نیاز</string>
-    <string name="Season4_9">نهم : ابزارآلات مورد نیاز</string>
-    <string name="Season4_10">دهم : ابزارآلات مورد نیاز</string>
-    //سرفصل های فصل پنجم//
-    <string name="Season5_1">اول : چگونه حلقه طلایی اپوکسی رزین ایجاد کنیم</string>
-    <string name="Season5_2">دوم : آموزش ساخت گوشواره چوب و رزین</string>
-    <string name="Season5_3">سوم : فیلم اموزش ساختن حلقه رزین و چوب</string>
-    <string name="Season5_4">چهارم : آموزش درست کردن انگشتر و زیورآلات رزین اپوکسی</string>
-    <string name="Season5_5">پنجم : زیورآلات برنز و برنج</string>
-    <string name="Season5_6">ششم : میزچوبی</string>
-    <string name="Season5_7">هفتم : کف پوش رزین اپوکشی</string>
-    <string name="Season5_8">هشتم : ابزارآلات مورد نیاز</string>
-    <string name="Season5_9">نهم : ابزارآلات مورد نیاز</string>
-    <string name="Season5_10">دهم : ابزارآلات مورد نیاز</string>
-    //سرفصل های فصل ششم//
-    <string name="Season6_1">اول : چگونه حلقه طلایی اپوکسی رزین ایجاد کنیم</string>
-    <string name="Season6_2">دوم : آموزش ساخت گوشواره چوب و رزین</string>
-    <string name="Season6_3">سوم : فیلم اموزش ساختن حلقه رزین و چوب</string>
-    <string name="Season6_4">چهارم : آموزش درست کردن انگشتر و زیورآلات رزین اپوکسی</string>
-    <string name="Season6_5">پنجم : زیورآلات برنز و برنج</string>
-    <string name="Season6_6">ششم : میزچوبی</string>
-    <string name="Season6_7">هفتم : کف پوش رزین اپوکشی</string>
-    <string name="Season6_8">هشتم : ابزارآلات مورد نیاز</string>
-    <string name="Season6_9">نهم : ابزارآلات مورد نیاز</string>
-    <string name="Season6_10">به جلسه اول خوش اومدید.  در این جلسه قصد دارم اول مواد  و ابزاری رو که برای ساخت زیورالات رزینی احتیاج دارید رو معرفی کنم و به صورت مفصل در مورد کاربرد هر یک از مواد و ابزار براتون توضیح بدم.  البته در هر جلسه مجددا به تفکیک براتون مواد و ابزار مربوط به همون جلسه رو یاد آوری می کنم. </string>
+    <string name="About_us">گروه نرم افزاری جهان پوشش</string>
+    <string name="About_main_program">آموزش کار بار رزین</string>
+
+
 </resources>

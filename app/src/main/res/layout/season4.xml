@@ -220,6 +220,77 @@
                 android:background="@drawable/button_2_ring"
                 android:text="@string/Season4_1_24" />
 
+            <Button
+                android:id="@+id/btns1n25"
+                style="@style/ButtonStyleList"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/button_2_ring"
+                android:text="@string/Season4_1_25" />
+
+            <Button
+                android:id="@+id/btns1n26"
+                style="@style/ButtonStyleList"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/button_2_ring"
+                android:text="@string/Season4_1_26" />
+
+            <Button
+                android:id="@+id/btns1n27"
+                style="@style/ButtonStyleList"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/button_2_ring"
+                android:text="@string/Season4_1_27" />
+
+            <Button
+                android:id="@+id/btns1n28"
+                style="@style/ButtonStyleList"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/button_2_ring"
+                android:text="@string/Season4_1_28" />
+
+            <Button
+                android:id="@+id/btns1n29"
+                style="@style/ButtonStyleList"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/button_2_ring"
+                android:text="@string/Season4_1_29" />
+
+            <Button
+                android:id="@+id/btns1n30"
+                style="@style/ButtonStyleList"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/button_2_ring"
+                android:text="@string/Season4_1_30" />
+
+            <Button
+                android:id="@+id/btns1n31"
+                style="@style/ButtonStyleList"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/button_2_ring"
+                android:text="@string/Season4_1_31" />
+
+            <Button
+                android:id="@+id/btns1n32"
+                style="@style/ButtonStyleList"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/button_2_ring"
+                android:text="@string/Season4_1_32" />
+
+            <Button
+                android:id="@+id/btns1n33"
+                style="@style/ButtonStyleList"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/button_2_ring"
+                android:text="@string/Season4_1_33" />
 
 
         </LinearLayout>

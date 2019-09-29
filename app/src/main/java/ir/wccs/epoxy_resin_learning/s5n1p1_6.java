@@ -20,7 +20,7 @@ import android.widget.FrameLayout;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-public class s5n1p1_1 extends AppCompatActivity {
+public class s5n1p1_6 extends AppCompatActivity {
 
 
 
@@ -35,14 +35,14 @@ public class s5n1p1_1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.s5n1p1_1);
+        setContentView(R.layout.s5n1p1_6);
 
         progressBar = (ProgressBar) findViewById(R.id.progressbar);
         mWebView = (WebView) findViewById(R.id.mWebView);
 
         progressBar.setVisibility(View.VISIBLE);
-        mWebView.setWebViewClient(new s5n1p1_1.Browser_home());
-        mWebView.setWebChromeClient(new s5n1p1_1.MyChrome());
+        mWebView.setWebViewClient(new s5n1p1_6.Browser_home());
+        mWebView.setWebChromeClient(new s5n1p1_6.MyChrome());
         WebSettings webSettings = mWebView.getSettings();
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.getSettings().setLoadWithOverviewMode(true);
@@ -67,7 +67,7 @@ public class s5n1p1_1 extends AppCompatActivity {
         ConnectivityManager cm = (ConnectivityManager) getApplication().getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo netInfo = cm.getActiveNetworkInfo();
         if (netInfo != null && netInfo.isConnectedOrConnecting()) {
-            mWebView.loadUrl("https://as7.cdn.asset.aparat.com/aparat-video/7941ec8c188ac40f6be51feaf6107b1217160289-1080p__97712.mp4");
+            mWebView.loadUrl("https://hw14.cdn.asset.aparat.com/aparat-video/53c127003f37856267bc6d4eeb3d0cc917160298-1080p__20092.mp4");
         } else {
             mWebView.setVisibility(View.GONE);
         }
@@ -83,7 +83,7 @@ public class s5n1p1_1 extends AppCompatActivity {
                 DownloadManager myManager = (DownloadManager) getSystemService(DOWNLOAD_SERVICE);
                 myManager.enqueue(myRequest);
 
-                Toast.makeText(s5n1p1_1.this,"Your file is downloading...", Toast.LENGTH_SHORT).show();
+                Toast.makeText(s5n1p1_6.this,"Your file is downloading...", Toast.LENGTH_SHORT).show();
 
 
             }

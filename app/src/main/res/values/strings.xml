@@ -92,16 +92,13 @@
     <string name="Season4_1_33">25 نمونه عالی زیورآلات رزین</string>
 
 
-
-
-
     //فصل پنجم//
-    <string name="Season5_1_1">آموزش نقاشی آبستره  1</string>
-    <string name="Season5_1_2">آموزش نقاشی آبستره  2</string>
-    <string name="Season5_1_3">نمونه نقاشی آبستره  1</string>
-    <string name="Season5_1_4">نمونه نقاشی آبستره  2</string>
-    <string name="Season5_1_5">نمونه نقاشی آبستره  3</string>
-    <string name="Season5_1_6">نمونه نقاشی آبستره  4</string>
+    <string name="Season5_1_1">آموزش نقاشی آبستره شماره  1</string>
+    <string name="Season5_1_2">آموزش نقاشی آبستره شماره  2</string>
+    <string name="Season5_1_3">آموزش نقاشی آبستره شماره  3</string>
+    <string name="Season5_1_4">آموزش نقاشی آبستره شماره  4</string>
+    <string name="Season5_1_5">آموزش نقاشی آبستره شماره  5</string>
+    <string name="Season5_1_6">آموزش نقاشی آبستره شماره  6</string>
 
 
     <string name="About_us">گروه نرم افزاری جهان پوشش</string>

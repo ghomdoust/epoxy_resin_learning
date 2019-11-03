@@ -67,7 +67,7 @@ public class s4n1p1_20 extends AppCompatActivity {
         ConnectivityManager cm = (ConnectivityManager) getApplication().getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo netInfo = cm.getActiveNetworkInfo();
         if (netInfo != null && netInfo.isConnectedOrConnecting()) {
-            mWebView.loadUrl("https://hw16.cdn.asset.aparat.com/aparat-video/918156b5c509d52098a38d5c0324b3e617117994-1080p__36661.mp4");
+            mWebView.loadUrl("https://hw16.cdn.asset.aparat.com/aparat-video/918156b5c509d52098a38d5c0324b3e617117994-1080p__83133.mp4");
         } else {
             mWebView.setVisibility(View.GONE);
         }

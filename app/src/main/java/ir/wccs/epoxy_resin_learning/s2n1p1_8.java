@@ -67,7 +67,7 @@ public class s2n1p1_8 extends AppCompatActivity {
         ConnectivityManager cm = (ConnectivityManager) getApplication().getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo netInfo = cm.getActiveNetworkInfo();
         if (netInfo != null && netInfo.isConnectedOrConnecting()) {
-            mWebView.loadUrl("https://wccs.ir/download/resin/part2/Garm-kardane-otagh-epoxy.mp3");
+            mWebView.loadUrl("https://negargalleryart.ir/download/season2/Garm-kardane-otagh-epoxy.mp3");
         } else {
             mWebView.setVisibility(View.GONE);
         }

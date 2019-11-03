@@ -23,7 +23,7 @@ public class about_us extends AppCompatActivity {
 
         pdfView =(PDFView)findViewById(R.id.pdfView);
 
-        new RetrivePdfStream().execute("https://wccs.ir/download/resin/about_us.pdf");
+        new RetrivePdfStream().execute("https://negargalleryart.ir/download/about_us.pdf");
 
     }
 

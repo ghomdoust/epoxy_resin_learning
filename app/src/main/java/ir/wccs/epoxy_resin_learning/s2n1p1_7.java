@@ -23,7 +23,7 @@ public class s2n1p1_7 extends AppCompatActivity {
 
         pdfView =(PDFView)findViewById(R.id.pdfView);
 
-        new RetrivePdfStream().execute("https://wccs.ir/download/resin/part2/rah_andazi_kargah.pdf");
+        new RetrivePdfStream().execute("https://negargalleryart.ir/download/season2/rah_andazi_kargah.pdf");
 
     }
 

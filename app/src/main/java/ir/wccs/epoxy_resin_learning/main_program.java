@@ -23,7 +23,7 @@ public class main_program extends AppCompatActivity {
 
         pdfView =(PDFView)findViewById(R.id.pdfView);
 
-        new RetrivePdfStream().execute("https://wccs.ir/download/resin/about_main_program.pdf");
+        new RetrivePdfStream().execute("https://negargalleryart.ir/download/about_main_program.pdf");
 
     }
 

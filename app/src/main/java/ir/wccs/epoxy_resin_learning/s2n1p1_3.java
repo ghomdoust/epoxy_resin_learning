@@ -23,7 +23,7 @@ public class s2n1p1_3 extends AppCompatActivity {
 
         pdfView =(PDFView)findViewById(R.id.pdfView);
 
-        new RetrivePdfStream().execute("https://wccs.ir/download/resin/part2/gambegam3.pdf");
+        new RetrivePdfStream().execute("https://negargalleryart.ir/download/season2/gambegam3.pdf");
 
     }
 

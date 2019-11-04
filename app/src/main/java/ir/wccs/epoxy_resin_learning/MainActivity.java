@@ -1,6 +1,7 @@
 package ir.wccs.epoxy_resin_learning;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
@@ -77,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
         ibtn6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,season6.class);
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.negargalleryart.ir"));
                 startActivity(intent);
             }
         });

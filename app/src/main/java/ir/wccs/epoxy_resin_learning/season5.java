@@ -23,8 +23,13 @@ public class season5 extends AppCompatActivity {
         final Button s1n3 = (Button) findViewById(R.id.btns1n3);
         final Button s1n4 = (Button) findViewById(R.id.btns1n4);
         final Button s1n5 = (Button) findViewById(R.id.btns1n5);
-
-
+        final Button s1n6 = (Button) findViewById(R.id.btns1n6);
+        final Button s1n7 = (Button) findViewById(R.id.btns1n7);
+        final Button s1n8 = (Button) findViewById(R.id.btns1n8);
+        final Button s1n9 = (Button) findViewById(R.id.btns1n9);
+        final Button s1n10 = (Button) findViewById(R.id.btns1n10);
+        final Button s1n11 = (Button) findViewById(R.id.btns1n11);
+        final Button s1n12 = (Button) findViewById(R.id.btns1n12);
 
 
         s1n1.setOnClickListener(new View.OnClickListener() {
@@ -62,11 +67,59 @@ public class season5 extends AppCompatActivity {
         s1n5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(season5.this,s1n1p1_5.class);
+                Intent intent = new Intent(season5.this,s5n1p1_5.class);
                 startActivity(intent);
             }
         });
-
+        s1n6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(season5.this,s5n1p1_6.class);
+                startActivity(intent);
+            }
+        });
+        s1n7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(season5.this,s5n1p1_7.class);
+                startActivity(intent);
+            }
+        });
+        s1n8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(season5.this,s5n1p1_8.class);
+                startActivity(intent);
+            }
+        });
+        s1n9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(season5.this,s5n1p1_9.class);
+                startActivity(intent);
+            }
+        });
+        s1n10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(season5.this,s5n1p1_10.class);
+                startActivity(intent);
+            }
+        });
+        s1n11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(season5.this,s5n1p1_11.class);
+                startActivity(intent);
+            }
+        });
+        s1n12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(season5.this,s5n1p1_12.class);
+                startActivity(intent);
+            }
+        });
 
 
 

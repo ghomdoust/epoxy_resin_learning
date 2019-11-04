@@ -93,18 +93,21 @@
 
 
     //فصل پنجم//
-    <string name="Season5_1_1">آموزش نقاشی آبستره شماره  1</string>
-    <string name="Season5_1_2">آموزش نقاشی آبستره شماره  2</string>
-    <string name="Season5_1_3">آموزش نقاشی آبستره شماره  3</string>
-    <string name="Season5_1_4">آموزش نقاشی آبستره شماره  4</string>
-    <string name="Season5_1_5">آموزش نقاشی آبستره شماره  5</string>
-    <string name="Season5_1_6">آموزش نقاشی آبستره شماره  6</string>
-    <string name="Season5_1_7">آموزش نقاشی آبستره شماره  1</string>
-    <string name="Season5_1_8">آموزش نقاشی آبستره شماره  2</string>
-    <string name="Season5_1_9">آموزش نقاشی آبستره شماره  3</string>
-    <string name="Season5_1_10">آموزش نقاشی آبستره شماره  4</string>
-    <string name="Season5_1_11">آموزش نقاشی آبستره شماره  5</string>
-    <string name="Season5_1_12">آموزش نقاشی آبستره شماره  6</string>
+    <string name="Season5_1_1">آموزش نقاشی موج و دریا</string>
+    <string name="Season5_1_2">آموزش نقاشی آبستره - پیورینگ</string>
+    <string name="Season5_1_3">آموزش تزئین سینی چوبی  بخش 1</string>
+    <string name="Season5_1_4">آموزش تزئین سینی چوبی  بخش 2</string>
+    <string name="Season5_1_5">آموزش طراحی تابلو ژئود</string>
+    <string name="Season5_1_6">نمونه شماره 1 مدت زمان 15 دقیقه</string>
+    <string name="Season5_1_7">نمونه شماره 2 مدت زمان 10 دقیقه</string>
+    <string name="Season5_1_8">نمونه شماره 3 مدت زمان 18 دقیقه</string>
+    <string name="Season5_1_9">نمونه شماره 4 مدت زمان 25 دقیقه</string>
+    <string name="Season5_1_10">نمونه شماره 5 مدت زمان 8 دقیقه</string>
+    <string name="Season5_1_11">نمونه شماره 6 مدت زمان 24 دقیقه</string>
+    <string name="Season5_1_12">نمونه شماره 7 مدت زمان 105 دقیقه</string>
+
+    //توضیحات نرم افزار//
+
 
     <string name="About_us">گروه نرم افزاری جهان پوشش</string>
     <string name="About_main_program">آموزش کار بار رزین</string>

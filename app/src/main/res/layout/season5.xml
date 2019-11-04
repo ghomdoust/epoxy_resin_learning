@@ -74,49 +74,55 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:background="@drawable/button_4_tablo"
-                android:text="@string/Season5_1_5" />
+                android:text="@string/Season5_1_6" />
+
             <Button
                 android:id="@+id/btns1n7"
                 style="@style/ButtonStyleList"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:background="@drawable/button_4_tablo"
-                android:text="@string/Season5_1_5" />
+                android:text="@string/Season5_1_7" />
+
             <Button
                 android:id="@+id/btns1n8"
                 style="@style/ButtonStyleList"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:background="@drawable/button_4_tablo"
-                android:text="@string/Season5_1_5" />
+                android:text="@string/Season5_1_8" />
+
             <Button
                 android:id="@+id/btns1n9"
                 style="@style/ButtonStyleList"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:background="@drawable/button_4_tablo"
-                android:text="@string/Season5_1_5" />
+                android:text="@string/Season5_1_9" />
+
             <Button
                 android:id="@+id/btns1n10"
                 style="@style/ButtonStyleList"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:background="@drawable/button_4_tablo"
-                android:text="@string/Season5_1_5" />
+                android:text="@string/Season5_1_10" />
+
             <Button
                 android:id="@+id/btns1n11"
                 style="@style/ButtonStyleList"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:background="@drawable/button_4_tablo"
-                android:text="@string/Season5_1_5" />
+                android:text="@string/Season5_1_11" />
+
             <Button
                 android:id="@+id/btns1n12"
                 style="@style/ButtonStyleList"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:background="@drawable/button_4_tablo"
-                android:text="@string/Season5_1_5" />
+                android:text="@string/Season5_1_12" />
 
 
         </LinearLayout>

@@ -14,7 +14,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".s5n1p1_6"></activity>
+        <activity android:name=".s5n1p1_12"></activity>
+        <activity android:name=".s5n1p1_11" />
+        <activity android:name=".s5n1p1_10" />
+        <activity android:name=".s5n1p1_9" />
+        <activity android:name=".s5n1p1_8" />
+        <activity android:name=".s5n1p1_7" />
+        <activity android:name=".s5n1p1_6" />
         <activity android:name=".s4n1p1_33" />
         <activity android:name=".s4n1p1_32" />
         <activity android:name=".s4n1p1_31" />

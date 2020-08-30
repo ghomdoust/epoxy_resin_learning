@@ -84,7 +84,7 @@ public class s2n1p1_9 extends AppCompatActivity {
                 DownloadManager myManager = (DownloadManager) getSystemService(DOWNLOAD_SERVICE);
                 myManager.enqueue(myRequest);
 
-                Toast.makeText(s2n1p1_9.this,"Your file is downloading...", Toast.LENGTH_SHORT).show();
+                Toast.makeText(s2n1p1_9.this,"ویدئوی شما در حال بارگزاری میباشد ...", Toast.LENGTH_SHORT).show();
 
 
             }

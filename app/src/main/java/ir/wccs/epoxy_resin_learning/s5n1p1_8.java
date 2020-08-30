@@ -67,7 +67,7 @@ public class s5n1p1_8 extends AppCompatActivity {
         ConnectivityManager cm = (ConnectivityManager) getApplication().getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo netInfo = cm.getActiveNetworkInfo();
         if (netInfo != null && netInfo.isConnectedOrConnecting()) {
-            mWebView.loadUrl("https://as4.cdn.asset.aparat.com/aparat-video/3c0c57d84c1f9a230e923967838dd42e17235164-720p__24791.mp4");
+            mWebView.loadUrl("https://aspb1.cdn.asset.aparat.com/aparat-video/3c0c57d84c1f9a230e923967838dd42e17235164-720p.mp4");
         } else {
             mWebView.setVisibility(View.GONE);
         }
@@ -83,7 +83,7 @@ public class s5n1p1_8 extends AppCompatActivity {
                 DownloadManager myManager = (DownloadManager) getSystemService(DOWNLOAD_SERVICE);
                 myManager.enqueue(myRequest);
 
-                Toast.makeText(s5n1p1_8.this,"Your file is downloading...", Toast.LENGTH_SHORT).show();
+                Toast.makeText(s5n1p1_8.this,"ویدئوی شما در حال بارگزاری میباشد ...", Toast.LENGTH_SHORT).show();
 
 
             }

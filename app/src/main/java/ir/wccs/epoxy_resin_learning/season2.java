@@ -29,7 +29,7 @@ public class season2 extends AppCompatActivity {
         final Button s1n10 = (Button) findViewById(R.id.btns1n10);
         final Button s1n11 = (Button) findViewById(R.id.btns1n11);
         final Button s1n12 = (Button) findViewById(R.id.btns1n12);
-        final Button s1n13 = (Button) findViewById(R.id.btns1n13);
+
 
         s1n1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -124,13 +124,7 @@ public class season2 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        s1n13.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(season2.this,s2n1p1_13.class);
-                startActivity(intent);
-            }
-        });
+
 
 
     }

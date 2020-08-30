@@ -124,13 +124,6 @@
                 android:background="@drawable/button_3_table"
                 android:text="@string/Season2_1_12" />
 
-            <Button
-                android:id="@+id/btns1n13"
-                style="@style/ButtonStyleList"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:background="@drawable/button_3_table"
-                android:text="@string/Season2_1_13" />
 
         </LinearLayout>
 

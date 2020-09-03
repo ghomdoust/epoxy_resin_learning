@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/navigation_drawer"
+    android:orientation="vertical"
+    android:layout_gravity="right"
+    android:background="@color/back_ground"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        >
+
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@mipmap/ic_launcher_foreground"
+                android:scaleType="fitXY"
+                >
+
+            </ImageView>
+
+        </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:fontFamily="@font/sans_num_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="گالری هنری نگار"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:paddingRight="20dp"
+                >
+
+            </TextView>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:fontFamily="@font/sans_num_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="طراح : محمود قوم دوست "
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:textColor="#000000"
+            >
+        </TextView>
+
+
+        <TextView
+            android:fontFamily="@font/sans"
+            android:id="@+id/contact_us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="تماس با ما : "
+            android:textSize="22sp"
+            android:paddingRight="30sp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#000000"
+            >
+
+        </TextView>
+
+        <TextView
+            android:fontFamily="@font/sans_num_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0513 - 2734630"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            >
+
+        </TextView>
+
+        <TextView
+            android:fontFamily="@font/sans_num_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="09158691318"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            >
+
+        </TextView>
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="www.negargalleryart.ir"
+            android:textSize="24sp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:fontFamily="@font/sans_num_bold"
+            android:textColor="#000000"
+            >
+
+        </TextView>
+
+        <TextView
+            android:fontFamily="@font/sans_num_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="نسخه  1.0.0"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#000000"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

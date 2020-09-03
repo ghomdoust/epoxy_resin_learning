@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center_vertical"
-    android:background="#D3D7FA"
+    android:background="@color/Main_Seasons_Color_ground"
     android:orientation="vertical"
     tools:context=".season3"
     android:theme="@style/Theme.AppCompat.NoActionBar"

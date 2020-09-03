@@ -9,7 +9,6 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageButton;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 
@@ -120,11 +119,7 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this,main_program.class);
             startActivity(intent);
         }
-        if (item.getItemId()== R.id.action_about_us){
 
-            Intent intent = new Intent(MainActivity.this,about_us.class);
-            startActivity(intent);
-        }
         if (item.getItemId()== R.id.action_exit){
 
             System.exit(0);

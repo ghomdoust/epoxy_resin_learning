@@ -187,10 +187,9 @@
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity android:name=".season1"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-
-
         <activity android:name=".sample_pdf_view" />
         <activity android:name=".sample_video_view" />
+
         <activity
             android:name=".SplashActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
@@ -200,7 +199,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".MainActivity" />
+
     </application>
 
 </manifest>

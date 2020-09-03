@@ -1,16 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".main_program">
+    tools:context=".main_program"
+    android:id="@+id/navigation_drawer"
+    android:orientation="vertical"
+    android:background="@color/secondaryTextColor"
+    >
 
-
-    <com.github.barteksc.pdfviewer.PDFView
-        android:id="@+id/pdfView"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        >
 
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/logo"
+                android:scaleType="fitXY"
+                >
+
+            </ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="3"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:fontFamily="@font/sans_num_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="گالری هنری نگار"
+                android:textSize="25sp"
+                android:textColor="@color/TextColor"
+                android:gravity="center"
+                android:paddingRight="15dp"
+                >
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:fontFamily="@font/sans_num_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="طراح : محمود قوم دوست "
+            android:textColor="@color/TextColor"
+            android:textSize="25sp"
+            android:gravity="center_horizontal"
+            android:paddingTop="20dp"
+            >
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/contact_us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="@font/sans_num_bold"
+            android:paddingRight="30sp"
+            android:text="تماس با ما : "
+            android:textColor="@color/TextColor"
+            android:textSize="25sp">
+
+        </TextView>
+
+        <TextView
+            android:fontFamily="@font/sans_num_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0513 - 2734630"
+            android:textColor="@color/TextColor"
+            android:textSize="25sp"
+            android:gravity="center"
+
+            >
+
+        </TextView>
+
+        <TextView
+            android:fontFamily="@font/sans_num_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="09158691318"
+            android:textColor="@color/TextColor"
+            android:textSize="25sp"
+            android:gravity="center"
+
+            >
+
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="www.negargalleryart.ir"
+            android:textColor="@color/TextColor"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:fontFamily="@font/sans_num_bold"
+            >
+
+        </TextView>
+
+        <TextView
+            android:fontFamily="@font/sans_num_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="نسخه  1.0.0"
+            android:textColor="@color/TextColor"
+            android:textSize="25sp"
+            android:gravity="center"
+            >
+
+        </TextView>
+
+    </LinearLayout>
 
 </LinearLayout>
